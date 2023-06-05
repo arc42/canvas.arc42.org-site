@@ -6,7 +6,7 @@ header:
   overlay_image: /images/splash/webdev.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   overlay_filter: rgba(0, 0, 0, 0.6)
-excerpt: "**Lorem Ipsum**"
+excerpt: "**As lean as architecture documentation can ever get**"
 
 
 feature_row_home:
@@ -37,7 +37,6 @@ feature_row_home:
   btn_class: "btn--primary"
 ---
 
-# As lean as architecture documentation can ever get
 
 A canvas provides a structured framework that facilitates the visualization of key elements of a system.
 Based upon ideas from the famous [Business Model Canvas](https://www.strategyzer.com) we created three different canvases 

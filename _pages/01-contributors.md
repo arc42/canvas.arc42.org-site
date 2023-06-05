@@ -9,4 +9,11 @@ header:
 excerpt: "**Lorem Ipsum**"
 ---
 
-Some text to fill the empty page
+### Patrick Roos
+
+### Gernot Starke
+
+
+### Supported by INNOQ
+
+Part of this work has been supported by [INNOQ](https://innoq.com).

@@ -37,7 +37,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Gernot Starke"
+  name             : "Gernot Starke, Patrick Roos and arc42 contributors."
   avatar           :
   bio              :
   location         : "Cologne"
@@ -52,8 +52,10 @@ author:
 include:
   - .htaccess
   - _pages
+  - _downloads
 exclude:
   - Dockerfile
+  - _the-canvas
   - _docker-compose*
   - _develop-site.sh
   - Dockerfile

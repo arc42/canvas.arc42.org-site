@@ -10,28 +10,25 @@ excerpt: "**Lorem Ipsum**"
 
 
 feature_row_home:
-- title: "The arc42-method"
+- title: "How-To"
   excerpt: "![](/images/home/test-image.png)<br>
-  arc42 is systematic but flexible. Suitable for large and small teams in iterative or less agile processes.
+  How to use this site.
   "
-  url: "/method"
+  url: "/howto"
   btn_label: "read more..."
   btn_class: "btn--primary"
 
-- title: "arc42 reading material"
+- title: "Canva 1"
   excerpt: "![](/images/home/test-image.png)<br>
-  There is a lot to read about arc42 and architecture. From methodology to _good practices_
-  to complete examples of software architectures.
-  Browse our books, articles, talks or videos."
-  url: "/more"
+  The first canva."
+  url: "/canvas"
   btn_label: "read more..."
   btn_class: "btn--primary"
 
-- title: "Consulting"
+- title: "Canva 2"
   excerpt: "![](/images/home/test-image.png)<br>
-  We help in all life situations of your IT projects.
-  Read more about our offers of consulting, reviews or practical support for your projects."
-  url: "/consulting"
+  The second canva."
+  url: "/canvas"
   btn_label: "read more..."
   btn_class: "btn--primary"
 ---

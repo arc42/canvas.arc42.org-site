@@ -10,8 +10,12 @@ excerpt: "**Lorem Ipsum**"
 ---
 
 ### Patrick Roos
+Founder of [workingsoftware.dev](https://workingsoftware.dev). Practical Software Architect and consultant, blog author. Inventor of the original _Software Architecture Canvas_, currently known as the "Architecture Inception Canvas".
 
 ### Gernot Starke
+INNOQ Fellow, arc42 co-founder and maintainer, aim42 founder, author of numerous books on software architecture.
+Pragmatic. Experienced trainer for software architecture, co-founder of the iSAQB Foundation Curriculum.
+
 
 
 ### Supported by INNOQ

@@ -55,7 +55,7 @@ include:
   - _downloads
 exclude:
   - Dockerfile
-  - _the-canvas
+  - _the-canvas*
   - _docker-compose*
   - _develop-site.sh
   - Dockerfile

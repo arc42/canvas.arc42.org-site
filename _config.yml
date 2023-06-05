@@ -34,12 +34,11 @@ social:
 # Analytics
 analytics:
   provider               : false
-  
 
 # Site Author
 author:
   name             : "Gernot Starke"
-  avatar           :  /images/avatar.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           :
   bio              :
   location         : "Cologne"
   email            : gernotstarke@mailbox.org

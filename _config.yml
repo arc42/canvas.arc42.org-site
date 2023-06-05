@@ -6,7 +6,7 @@ github: metadata
 
 # Site Settings
 locale          : "de"
-title           : "Arc42 - Canvas"
+title           : "Software Architecture Canvas"
 title_separator : "-"
 name            : ""
 description     : ""

@@ -1,0 +1,15 @@
+# docker-compose definition for developing the site.
+#
+version: '3'
+
+services:
+  gernotstarke-jekyll:
+    build: .
+    image: gernotstarke-site
+    command: jekyll serve --trace --host 0.0.0.0 --watch --config _config.yml
+    environment:
+      - JEKYLL_ENV=development
+    ports:
+      - 4000:4000
+    volumes:
+      - .:/srv/jekyll

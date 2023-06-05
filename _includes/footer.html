@@ -1,0 +1,29 @@
+<div class="page__footer-follow">
+  <ul class="social-icons">
+
+    {% if site.author.github %}
+      <li><a href="https://github.com/{{ site.author.github }}"
+             rel="noopener noreferrer nofollow"
+            target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    {% endif %}
+
+    <li><a href="https://www.youtube.com/channel/UCG2Ndo4IEH8Fa0oIv2FBRMA"
+           rel="noopener noreferrer nofollow"
+           target="_blank"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i>
+        YouTube</a></li>
+
+    <li><a href="https://www.instagram.com/per.starke/"
+           rel="noopener noreferrer nofollow"
+           target="_blank"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+
+    <li><a href="{{ '/imprint' | absolute_url }}"
+           rel="noopener noreferrer nofollow"
+           target="_blank"><i class="fas fa-fw fa-gavel" style="color:Tomato" aria-hidden="true"></i> Impressum & Datenschutz</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} Per Starke. Powered by
+  <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>,
+  generated {{ site.time | date: '%d. %b. %y' }}
+
+</div>

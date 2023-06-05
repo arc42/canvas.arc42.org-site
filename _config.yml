@@ -1,0 +1,168 @@
+# Jekyll technical configuration!
+#
+
+remote_theme: mmistakes/minimal-mistakes
+github: metadata
+
+# Site Settings
+locale          : "de"
+title           : "Basic Homepage"
+title_separator : "-"
+name            : ""
+description     : "Add description here"
+url             : "https://basic-homepage.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl         : ""  # the subpath of your site, e.g. "/blog"
+repository      : "perstarke-webdev/basic_homepage" # GitHub username/repo-name
+teaser          :  # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+breadcrumbs     : false # true, false (default)
+words_per_minute : 200
+permalink       : none
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+
+# Social Sharing
+  # For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : Organization # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+# Analytics
+analytics:
+  provider               : false
+  
+
+# Site Author
+author:
+  name             : "First Last"
+  avatar           :  /images/avatar.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              :
+  location         : "City"
+  email            : examplemail@gmail.com
+  uri              :
+  github           : 
+  stack_overflow   :
+  twitter          :
+  xing             : 
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - Dockerfile
+  - _docker-compose*
+  - _develop-site.sh
+  - Dockerfile
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - zz-originale
+  - zz-production-site
+
+keep_files:
+  - .git
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Liquid
+strict_front_matter: true
+liquid:
+  error_mode: strict
+
+# Conversion
+markdown: kramdown
+highlighter: 
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  syntax_highlighter: 
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /:categories/:title/
+paginate:  # amount of posts to show
+paginate_path: #/page:num/
+timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-numbered-headings
+  - jekyll-include-cache
+  - jemoji
+
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-numbered-headings
+  
+
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false

@@ -6,13 +6,13 @@ github: metadata
 
 # Site Settings
 locale          : "de"
-title           : "Basic Homepage"
+title           : "Arc42 - Canvas"
 title_separator : "-"
 name            : ""
-description     : "Add description here"
-url             : "https://basic-homepage.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description     : ""
+url             : "https://canvas.arc42.org" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl         : ""  # the subpath of your site, e.g. "/blog"
-repository      : "perstarke-webdev/basic_homepage" # GitHub username/repo-name
+repository      : "arc42/canvas.arc42.org-site" # GitHub username/repo-name
 teaser          :  # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs     : false # true, false (default)
 words_per_minute : 200
@@ -38,11 +38,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "First Last"
+  name             : "Gernot Starke"
   avatar           :  /images/avatar.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              :
-  location         : "City"
-  email            : examplemail@gmail.com
+  location         : "Cologne"
+  email            : gernotstarke@mailbox.org
   uri              :
   github           : 
   stack_overflow   :

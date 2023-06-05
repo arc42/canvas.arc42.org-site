@@ -5,7 +5,7 @@ version: '3'
 services:
   gernotstarke-jekyll:
     build: .
-    image: gernotstarke-site
+    image: canvas-arc42-site
     command: jekyll serve --trace --host 0.0.0.0 --watch --config _config.yml
     environment:
       - JEKYLL_ENV=development

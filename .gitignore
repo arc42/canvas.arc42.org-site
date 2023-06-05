@@ -1,2 +1,6 @@
 *.bkp
+.idea
+_site/assets/.DS_Store
+_site/.DS_Store
+_site
 .DS_Store

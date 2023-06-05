@@ -1,0 +1,10 @@
+# main links
+main:
+  - title: "Contributors"
+    url: /contributors
+  - title: "Examples"
+    url: /examples
+  - title: "Canvas"
+    url: /canvas
+  - title: "How-To"
+    url: /howto

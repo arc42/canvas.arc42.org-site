@@ -1,8 +1,10 @@
 # main links
 main:
-  - title: "Home"
-    url: /
-  - title: "Impressum"
-    url: /imprint
-
-
+  - title: "Contributors"
+    url: /contributors
+  - title: "Examples"
+    url: /examples
+  - title: "Canvas"
+    url: /canvas
+  - title: "How-To"
+    url: /howto

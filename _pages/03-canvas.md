@@ -1,7 +1,7 @@
 ---
-title: Software Architecture Canvas
+title: Canvas
 layout: splash
-permalink: /
+permalink: /canvas
 header:
   overlay_image: /images/splash/webdev.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"

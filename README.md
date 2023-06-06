@@ -2,6 +2,12 @@
 
 Repository for the website canvas.arc42.org
 
+## Local Development
+
+* `docker compose up` does the trick. It starts an incremental build on `0.0.0.0:4000`.
+* If you change config (e.g. in `config.yml` or the `/_data` subdir, you have to restart the server or delete the `_site` directory.)
+
+
 ## Credits
 
 Based upon [Jekyll](https://jekyllrb.org) and the [MinimalMistakes theme](https://mmistakes.github.io/minimal-mistakes/). Rendered using GitHub Pages.

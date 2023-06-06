@@ -1,6 +1,6 @@
 # canvas.arc42.org
 
-Repository for the website canvas.arc42.org
+Repository for the website [canvas.arc42.org](https://canvas.arc42.org).
 
 ## Local Development
 

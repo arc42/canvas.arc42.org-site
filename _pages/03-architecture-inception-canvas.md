@@ -1,7 +1,7 @@
 ---
 title: Architecture Inception Canvas
 layout: splash
-permalink: /inception-canvas
+permalink: /architecture-inception-canvas
 header:
   overlay_image: /images/splash/aic-splash.png
   overlay_filter: rgba(0, 0, 0, 0.6)

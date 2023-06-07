@@ -32,7 +32,7 @@ The situation that probably every software developer loves: the start of buildin
 * Docker vs. Podman?
 * Continuous Integration and Deployment Pipelines? GitOps?
 
-A lot of technical questions for technology lovers (like us :-)).
+A lot of technical questions for technology lovers (like us 😀).
 
 But wait... are these questions even relevant at the beginning of a software initiative?
 

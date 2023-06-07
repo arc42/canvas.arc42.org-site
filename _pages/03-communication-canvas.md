@@ -8,9 +8,28 @@ header:
 excerpt: "**Architecture Communication Canvas**"
 ---
 
+
 ## Structure of the ACC
 
 ![](images/canvas/architecture-communication-canvas.webp)
+
+### Value Proposition
+
+### Key Stakeholder
+
+### Core Functions
+
+### Quality Requirements
+
+### Business Context
+
+### Core Decisions - Good or Bad
+
+### Components / Modules
+
+### Technologies
+
+### Risks and Missing Information
 
 
 ## Download

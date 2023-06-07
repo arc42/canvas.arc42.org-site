@@ -1,0 +1,66 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .requirement {
+    background-color: rgb(143, 228, 180);
+    border-radius: 10px;
+    align-items: flex-start;    
+  }
+  .solution {
+    background-color: rgb(148, 215, 239);
+    border-radius: 10px;
+    
+  }
+  .problem {
+    background-color: rgb(255, 199, 198);
+    border-radius: 10px;
+    
+  }
+
+
+  .value {
+    grid-column: 1 / span 4;
+    grid-row: 1 / span 2;
+  }
+  
+  .stakeholder {
+    grid-column: 1;
+    grid-row: 3 / span 6;
+  }
+  
+  .functions {
+    grid-column: 2;
+    grid-row: 3 / span 3;
+  }
+  
+  .context {
+    grid-column: 2;
+    grid-row: 6 / span 3;
+  }
+  
+  .quality {
+    grid-column: 3;
+    grid-row: 3 / span 2;
+  }
+  .decisions {
+    grid-column: 3;
+    grid-row: 5 / span 2;
+  }
+  .components {
+    grid-column: 3 / span 2;
+    grid-row: 7 / span 2;
+  }
+  
+  .technology {
+    grid-column: 4;
+    grid-row: 3 / span 4;
+  }
+  .risks {
+    grid-column: 1 / span 4;
+    grid-row: 9 / span 2;
+  }
+  
+  

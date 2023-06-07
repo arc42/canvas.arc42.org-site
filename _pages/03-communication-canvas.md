@@ -16,7 +16,7 @@ excerpt: "**Architecture Communication Canvas**"
 ## Download
 
 * [pdf](/downloads/architecture-communication-canvas.pdf), e.g. for on-site workshops
-* [png]/(/downloads/architecture-communication-canvas.png), as background
+* [png](/downloads/architecture-communication-canvas.png), as background
 * [Template for Miro® boards]()
 
 If you want to create your own version, just clone our [Github repository](https://github.com/arc42/canvas.arc42.org-site).

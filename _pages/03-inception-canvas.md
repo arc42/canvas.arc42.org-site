@@ -3,7 +3,7 @@ title: Architecture Inception Canvas
 layout: splash
 permalink: /inception-canvas
 header:
-  overlay_image: /images/splash/acc-splash.png
+  overlay_image: /images/splash/aic-splash.png
   overlay_filter: rgba(0, 0, 0, 0.6)
 excerpt: '**Architecture Inception Canvas**'
 ---

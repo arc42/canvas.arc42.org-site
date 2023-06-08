@@ -8,36 +8,45 @@ header:
 excerpt: "**The shortest description of your architecture**"
 ---
 
-## Overview
+## Structure of the ACC
+
 
 Click on an element to see a more detailed description, or just scroll down.
 
 <div class="grid-container">
-  <div class="requirement value part">
+  
+  <a href="#value" style="grid-column: 1 / span 4;
+  grid-row: 1 / span 2; canvastext">
+  <div class="requirement part canvastext">
     <strong>Value Proposition</strong><br>
      <small>
       What is the core business case?
      </small>
   </div>
+  </a>
 
-  <div class="requirement stakeholder part">
-     <strong>Key Stakeholder</strong><br>
+  <a href="#stakeholder" style="stakeholder; canvastext">
+  <div class="requirement part ">
+     <strong>Key Stakeholder</strong><br />
      <small>
-      For whom are we creating value?<br>
-      Who are the customer?<br>
-      Who is paying?<br>
-      Who is contributing?<br>
+      For whom are we creating value?<br />
+      Who are the customer?<br />
+      Who is paying?<br />
+      Who is contributing?<br />
      </small>
   </div>
+  </a>
 
-  <div class="requirement functions part">
+  <a href="#functions" style="functions; canvastext">
+  <div class="requirement part">
     <strong>Core Functions</strong><br>
     <small>
     Most important functions?<br>
     Supported processes or activities
     </small>
   </div>
-  
+  </a>
+
   <div class="requirement quality part">
     <strong>Quality Requirement</strong><br>
     <small>
@@ -86,3 +95,46 @@ Click on an element to see a more detailed description, or just scroll down.
   </div>
 </div>
 
+
+<a id="value"/>
+### Value Proposition
+
+Answer at least on of the following questions:
+
+* What are the systems' major objectives?
+* What value does the system deliver to the customer?
+* What are the major business goals of the system?
+* Why is the system build and operated?
+* What is its core responsibility?
+
+<a id="stakeholder"/>
+### Key Stakeholder
+
+Identify the most important stakeholders of the system:
+
+* For whom are we creating value?
+* Who is paying for development?
+* Who is paying for operations?
+* Who are our most important customers?
+* Who are our most important contributors?
+
+<a id="functions"/>
+### Core Functions
+
+<a id="quality"/>
+### Quality Requirements
+
+<a id="context"/>
+### Business Context
+
+<a id="decisions"/>
+### Core Decisions - Good or Bad
+
+<a id="components"/>
+### Components / Modules
+
+<a id="technology"/>
+### Technologies
+
+<a id="risks"/>
+### Risks and Missing Information

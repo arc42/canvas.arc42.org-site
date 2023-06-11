@@ -1,10 +1,12 @@
 # main links
 main:
-  - title: "Contributors"
-    url: /contributors
-  - title: "Examples"
-    url: /examples
   - title: "Canvas"
     url: /canvas
-  - title: "How-To"
-    url: /howto
+  - title: "Inception"
+    url: /architecture-inception-canvas
+  - title: "Communication"
+    url: /architecture-communication-canvas
+  - title: "Examples"
+    url: /examples
+  - title: "Contributors"
+    url: /contributors

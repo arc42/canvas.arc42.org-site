@@ -3,10 +3,9 @@ title: Contributors
 layout: splash
 permalink: /contributors
 header:
-  overlay_image: /images/splash/webdev.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-  overlay_filter: rgba(0, 0, 0, 0.6)
-excerpt: "**Lorem Ipsum**"
+  overlay_image: /images/splash/canvas-splash.png
+  caption: "Photo credit: **DALL.E** and Gernot Starke"
+excerpt: "**Two architects striving for minimalism**"
 ---
 
 ### Patrick Roos
@@ -48,11 +47,20 @@ Pragmatic. Experienced trainer for software architecture, co-founder of the iSAQ
     <li><a href="https://linkedin.com/in/gernotstarke">
       <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
 
-    {% if site.author.github %}
-    <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
-    {% endif %}
+    
+    <li><a href="https://github.com/gernotstarke"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
 
     <li><a href="https://www.youtube.com/arc42-video/"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> YouTube</a></li>
+
+    <li>
+        <i class="fab fa-fw fa-twitter" aria-hidden="true"></i>
+        <a href="https://twitter.com/_gernotstarke">Twitter</a>
+      </li>
+
+    <li>
+        <i class="fab fa-fw fa-mastodon" aria-hidden="true"></i>
+        <a href="https://innoq.social/@gernotstarke">Mastodon</a>
+      </li>
 
     <li><a href="https://dev.to/gernotstarke/"><i class="fab fa-dev" aria-hidden="true"></i> Dev</a></li>
 </ul>

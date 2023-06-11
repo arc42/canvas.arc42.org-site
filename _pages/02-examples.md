@@ -6,7 +6,8 @@ header:
   overlay_image: /images/splash/webdev.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   overlay_filter: rgba(0, 0, 0, 0.6)
-excerpt: "**Lorem Ipsum**"
+excerpt: "**Canvas in Action**"
 ---
 
-Some text to fill the empty page
+Sorry - this page is still under construction.
+If you have examples, consider contributing!

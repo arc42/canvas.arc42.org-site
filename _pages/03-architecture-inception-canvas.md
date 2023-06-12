@@ -14,7 +14,64 @@ The Architecture Inception Canvas is a collaborative technique for elaborating t
 
 With this canvas, you can work efficiently, iteratively, and in a time-saving manner on the software architecture of your software products as a team sport.
 
-![](images/canvas/architecture-inception-canvas.webp)
+<div class="grid-container architecture-inception-canvas">
+  
+  <a href="#business-case-here-is-your-why" class="part requirement business-case">
+    <strong>Business Case</strong><br>
+     <small>
+      Brief description of the business case or economic driver behind the software system.
+     </small>
+  </a>
+
+  <a href="#functional-overview-this-is-the-most-important-part-on-your-product-box" class="requirement part functional-overview">
+     <strong>Functional Overview</strong><br />
+     <small>
+      The most important functional requirements at a high lvel.
+     </small>
+  </a>
+
+  <a href="#quality-goals-the-key-drivers-of-architecture" class="requirement quality-goals part">
+    <strong>Quality Goals</strong><br>
+    <small>
+      The three most important quality goals for the architecture, which have the highest priority for the most important stakeholder.
+    </small>
+  </a>
+
+  <a href="#architectural-hypotheses-create-your-first-high-level-architectural-hypotheses-based-on-your-current-knowledge" class="solution architecture-hypotheses part">
+   <strong>Architecture Hypotheses</strong><br>
+    <small>
+      Resulting architectureal hypotheses and important, expensive, large-scale or risiky decisions, including justifications.
+    </small>
+  </a>
+
+  <a href="#challenges-and-risks-what-are-the-upcoming-challenges-and-the-resulting-risks" class="problem technical-challenges part">
+   <strong>Technical Challenges & Risks</strong><br>
+    <small>
+      Identified current known challenges and technical risks
+    </small>
+  </a>
+
+  <a href="#business-context-explore-the-context-and-get-the-scope" class="requirement business-context part">
+   <strong>Business Context</strong><br>
+    <small>
+      Separate your system under constructure as a black box from all its communication partners. Communication partners are neighbouring external systems and users.
+    </small>
+  </a> 
+
+  <a href="#organisational-and-technical-constraints-your-limitation-of-freedom" class="requirement organisational-constraints part">
+   <strong>Organisational Constraints</strong><br>
+    <small>
+      Any organisational requirement that limits the software architects freedom of decision.
+    </small>
+  </a>  
+
+  <a href="#organisational-and-technical-constraints-your-limitation-of-freedom" class="requirement technical-constraints part">
+   <strong>Technical Constraints</strong><br>
+    <small>
+      Any technical requirement that limits the software architects freedom of decision.
+    </small>
+  </a>  
+</div>
 
 ### Motivation
 
@@ -68,7 +125,7 @@ The Architecture Inception Canvas contains the following parts:
 * [Business Case](#business-case-here-is-your-why)
 * [Functional Overview](#functional-overview-this-is-the-most-important-part-on-your-product-box)
 * [Quality Goals](#quality-goals-the-key-drivers-of-architecture)
-* [Business Context](#business-case-here-is-your-why)
+* [Business Context](#business-context-explore-the-context-and-get-the-scope)
 * [Organisational Contraints](#organisational-and-technical-constraints-your-limitation-of-freedom)
 * [Technical Constraints](#organisational-and-technical-constraints-your-limitation-of-freedom)
 * [Architectural Hypotheses](#architectural-hypotheses-create-your-first-high-level-architectural-hypotheses-based-on-your-current-knowledge)

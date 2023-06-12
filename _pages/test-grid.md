@@ -13,21 +13,19 @@ excerpt: "**The shortest description of your architecture**"
 
 
 Click on an element to see a more detailed description, or just scroll down.
-
 <div class="grid-container">
-  
-  <a href="#value" style="grid-column: 1 / span 4; grid-row: 1 / span 2; display: block;">
-  <div class="requirement part">
+
+  <div class="requirement value part">
+    <a href="#value" class="gridlink">
     <strong>Value Proposition</strong><br>
      <small>
       What is the core business case?
      </small>
+    </a>
   </div>
-  </a>
 
-
-  <a href="#stakeholder" style="stakeholder">
-  <div class="requirement stakeholder part">
+    <a href="#stakeholder" class="gridlink">
+  <div class="requirement stakeholder part ">
      <strong>Key Stakeholder</strong><br />
      <small>
       For whom are we creating value?<br />
@@ -36,10 +34,9 @@ Click on an element to see a more detailed description, or just scroll down.
       Who is contributing?<br />
      </small>
   </div>
-  </a>
+    </a>
 
-<!-- just the anchor results in reduced size too -->
-<a href="#functions">
+    <a href="#functions" class="gridlink">
   <div class="requirement functions part">
     <strong>Core Functions</strong><br>
     <small>
@@ -47,11 +44,10 @@ Click on an element to see a more detailed description, or just scroll down.
     Supported processes or activities
     </small>
   </div>
-</a>
-  
+    </a>
 
   <div class="requirement quality part">
-  <a href="#quality">
+    <a href="#quality" class="gridlink">
     <strong>Quality Requirement</strong><br>
     <small>
     Important quality requirements:<br>
@@ -65,50 +61,39 @@ Click on an element to see a more detailed description, or just scroll down.
   
   
   <div class="solution context part">
-  <a href="#context">
     <strong>Business Context</strong><br>
     <small>Important external interfaces<br>
     or neighbouring systems.
     </small>
-    </a>
   </div>
 
   <div class="solution components part">
-  <a href="#components">
     <strong>Components/Modules</strong><br>
     <small>
     What the major building blocks of the system?
     </small>
-    </a>
   </div>
   
   <div class="solution decisions part">
-  <a href="#decisions">
     <strong>Core Decisions - Good or Bad</strong><br>
     <small>
     Which decisions lead to the current state?
     </small>
-  </a>
   </div>
   
   <div class="solution technology part">
-  <a href="#technology">
   <strong>Technologies</strong><br>
-  </a>
-
+  
   </div>
   
   <div class="problem risks part">
-  <a href="#risks">
   <strong>Risks and Missing Information</strong><br>
    <small>
     Potential problems and risks?<br>
     What information is missing or has gotten lost?<br>
     What is hindering the team from delivering better value faster?<br>
     </small>
-  </a>
   </div>
-
 </div>
 
 

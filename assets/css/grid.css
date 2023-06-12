@@ -7,12 +7,12 @@
 .part {
   padding: 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.247);
+  
 }
 
 .canvastext {
   text-decoration: none;
   color: darkslategrey;
-  display: block
 }
 
 .requirement {
@@ -69,4 +69,9 @@
 .risks {
   grid-column: 1 / span 4;
   grid-row: 9 / span 2;
+}
+
+a.gridlink {
+    all: unset;
+    cursor: pointer;
 }

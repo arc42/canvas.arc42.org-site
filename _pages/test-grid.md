@@ -14,19 +14,18 @@ excerpt: "**The shortest description of your architecture**"
 Click on an element to see a more detailed description, or just scroll down.
 
 <div class="grid-container">
-  
-  <a href="#value" style="grid-column: 1 / span 4;
-  grid-row: 1 / span 2; canvastext">
-  <div class="requirement part canvastext">
+
+  <div class="requirement value part">
+    <a href="#value" class="gridlink">
     <strong>Value Proposition</strong><br>
      <small>
       What is the core business case?
      </small>
+    </a>
   </div>
-  </a>
 
-  <a href="#stakeholder" style="stakeholder; canvastext">
-  <div class="requirement part ">
+  <div class="requirement stakeholder part ">
+    <a href="#stakeholder" class="gridlink">
      <strong>Key Stakeholder</strong><br />
      <small>
       For whom are we creating value?<br />
@@ -34,18 +33,18 @@ Click on an element to see a more detailed description, or just scroll down.
       Who is paying?<br />
       Who is contributing?<br />
      </small>
+    </a>
   </div>
-  </a>
 
-  <a href="#functions" style="functions; canvastext">
-  <div class="requirement part">
+  <div class="requirement functions part">
+    <a href="#functions" class="gridlink">
     <strong>Core Functions</strong><br>
     <small>
     Most important functions?<br>
     Supported processes or activities
     </small>
+    </a>
   </div>
-  </a>
 
   <div class="requirement quality part">
     <strong>Quality Requirement</strong><br>

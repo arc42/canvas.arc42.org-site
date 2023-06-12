@@ -70,3 +70,8 @@
   grid-column: 1 / span 4;
   grid-row: 9 / span 2;
 }
+
+a.gridlink {
+    all: unset;
+    cursor: pointer;
+}

@@ -25,7 +25,7 @@ a.part::before {
 }
 
 a.part:hover {
-  transform: scale(1.05);
+  transform: scale(1.015);
 }
 
 .canvastext {

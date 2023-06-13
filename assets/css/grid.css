@@ -47,69 +47,68 @@ a.part:hover {
   border-radius: 10px;
 }
 
-.architecture-inception-canvas {
-  .business-case {
+.architecture-inception-canvas .business-case {
       grid-column: 1 / span 4;
       grid-row: 1 / span 2;
-  }
-
-  .functional-overview {
-    grid-column: 1;
-    grid-row: 3 / span 3;
-  }
-
-  .quality-goals {
-    grid-column: 1;
-    grid-row: 6 / span 3;
-  }
-
-  .business-context {
-    grid-column: 2 / span 2;
-    grid-row: 3 / span 6;
-  }
-
-  .organisational-constraints {
-    grid-column: 4;
-    grid-row: 3 / span 3;
-  }
-
-  .technical-constraints {
-    grid-column: 4;
-    grid-row: 6 / span 3;
-  }
-
-  .architecture-hypotheses {
-    grid-column: 1 / span 2;
-    grid-row: 9 / span 2;
-  }
-
-  .technical-challenges {
-    grid-column: 3 / span 2;
-    grid-row: 9 / span 2;
-  }
-
-  .part {
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-  }
-
-  .requirement {
-    background-color: rgb(143, 228, 180);
-    border-radius: 10px;
-    align-items: flex-start;
-  }
-
-  .problem {
-    background-color: rgb(255, 199, 198);
-    border-radius: 10px;
-  }
-
-  .solution {
-    background-color: rgb(148, 215, 239);
-    border-radius: 10px;
-  }
 }
 
+
+.architecture-inception-canvas .functional-overview {
+  grid-column: 1;
+  grid-row: 3 / span 3;
+}
+
+.architecture-inception-canvas .quality-goals {
+  grid-column: 1;
+  grid-row: 6 / span 3;
+}
+
+.architecture-inception-canvas .business-context {
+  grid-column: 2 / span 2;
+  grid-row: 3 / span 6;
+}
+
+.architecture-inception-canvas .organisational-constraints {
+  grid-column: 4;
+  grid-row: 3 / span 3;
+}
+
+.architecture-inception-canvas .technical-constraints {
+  grid-column: 4;
+  grid-row: 6 / span 3;
+}
+
+.architecture-inception-canvas .architecture-hypotheses {
+  grid-column: 1 / span 2;
+  grid-row: 9 / span 2;
+}
+
+.architecture-inception-canvas .technical-challenges {
+  grid-column: 3 / span 2;
+  grid-row: 9 / span 2;
+}
+
+
+.architecture-inception-canvas .part {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.architecture-inception-canvas .requirement {
+  background-color: rgb(143, 228, 180);
+  border-radius: 10px;
+  align-items: flex-start;
+}
+
+.architecture-inception-canvas .problem {
+  background-color: rgb(255, 199, 198);
+  border-radius: 10px;
+}
+
+.architecture-inception-canvas .solution {
+  background-color: rgb(148, 215, 239);
+  border-radius: 10px;
+}
 
 .value {
   grid-column: 1 / span 4;
@@ -156,4 +155,31 @@ a.part:hover {
 a.gridlink {
     all: unset;
     cursor: pointer;
+}
+
+.icon {
+  font-size: 25px;
+  padding: 5px;
+}
+
+/* Flexbox Utilities */
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-row-space-between {
+  @apply flex row space-between;
 }

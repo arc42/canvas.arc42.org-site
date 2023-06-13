@@ -10,24 +10,34 @@ excerpt: '**An Efficient and Collaborative Way to Define your Software Architect
 
 ## Architecture Inception Canvas
 
-The Architecture Inception Canvas is a collaborative technique for elaborating the software architecture playground of a software initiative. 
+The Architecture Inception Canvas is a collaborative technique for elaborating the software architecture playground of a software initiative.
 
 With this canvas, you can work efficiently, iteratively, and in a time-saving manner on the software architecture of your software products as a team sport.
 
 <div class="grid-container architecture-inception-canvas">
   
   <a href="#business-case-here-is-your-why" class="part requirement business-case">
-    <strong>Business Case</strong><br>
-     <small>
-      Brief description of the business case or economic driver behind the software system.
-     </small>
+    <div class="flex row space-between">
+      <div class="flex column">
+        <strong>Business Case</strong>
+        <small>
+          Brief description of the business case or economic driver behind the software system.
+        </small>
+      </div>
+      <i class="fa fa-briefcase icon" aria-hidden="true"></i>
+    </div>
   </a>
 
   <a href="#functional-overview-this-is-the-most-important-part-on-your-product-box" class="requirement part functional-overview">
-     <strong>Functional Overview</strong><br />
-     <small>
-      The most important functional requirements at a high lvel.
-     </small>
+    <div class="flex row space-between">
+      <div class="flex column">
+        <strong>Functional Overview</strong>
+        <small>
+          The most important functional requirements at a high lvel.
+        </small>
+      </div>
+      <i class="fa fa-list-ul icon" aria-hidden="true"></i>
+     </div>
   </a>
 
   <a href="#quality-goals-the-key-drivers-of-architecture" class="requirement quality-goals part">
@@ -56,14 +66,14 @@ With this canvas, you can work efficiently, iteratively, and in a time-saving ma
     <small>
       Separate your system under constructure as a black box from all its communication partners. Communication partners are neighbouring external systems and users.
     </small>
-  </a> 
+  </a>
 
   <a href="#organisational-and-technical-constraints-your-limitation-of-freedom" class="requirement organisational-constraints part">
    <strong>Organisational Constraints</strong><br>
     <small>
       Any organisational requirement that limits the software architects freedom of decision.
     </small>
-  </a>  
+  </a>
 
   <a href="#organisational-and-technical-constraints-your-limitation-of-freedom" class="requirement technical-constraints part">
    <strong>Technical Constraints</strong><br>
@@ -77,17 +87,17 @@ With this canvas, you can work efficiently, iteratively, and in a time-saving ma
 
 The situation that probably every software developer loves: the start of building a new system and the resulting technical questions and discussions:
 
-* Do we take a micro services approach?
-* Functional or object oriented?
-* Do we follow the hexagonal architecture approach?
-* Do we do an event-driven approach with CQRS?
-* Or do we follow a serverless approach?
-* Java, F#, Go or Rust?
-* Azure, AWS or GCP?
-* NoSQL vs. SQL? MongoDB vs. PostgreSQL?
-* Angular vs. React vs. Solid?
-* Docker vs. Podman?
-* Continuous Integration and Deployment Pipelines? GitOps?
+- Do we take a micro services approach?
+- Functional or object oriented?
+- Do we follow the hexagonal architecture approach?
+- Do we do an event-driven approach with CQRS?
+- Or do we follow a serverless approach?
+- Java, F#, Go or Rust?
+- Azure, AWS or GCP?
+- NoSQL vs. SQL? MongoDB vs. PostgreSQL?
+- Angular vs. React vs. Solid?
+- Docker vs. Podman?
+- Continuous Integration and Deployment Pipelines? GitOps?
 
 A lot of technical questions for technology lovers (like us 😀).
 
@@ -96,7 +106,6 @@ But wait... are these questions even relevant at the beginning of a software ini
 In our roles as Software Architects, we've been involved with many new software initiatives with product teams.
 
 And it's always the same traps that software development teams first fall into: The need to discuss these fancy technical and low-level architectural design topics.
-
 
 > And it's always the same traps that software development teams first fall into: The need to discuss these fancy technical and low-level architectural design topics.
 
@@ -114,22 +123,22 @@ That's why we developed the Architecture Inception Canvas, which helps product t
 
 The Architecture Inception Architecture Canvas is divided into three main sections:
 
-* **Goals**: What should the software do? (green)
-* **Solution**: How can we achieve it? (blue)
-* **Assessment**: How do we evaluate the situation? (red)
+- **Goals**: What should the software do? (green)
+- **Solution**: How can we achieve it? (blue)
+- **Assessment**: How do we evaluate the situation? (red)
 
 ![](images/canvas/architecture-inception-canvas-regions.webp)
 
 The Architecture Inception Canvas contains the following parts:
 
-* [Business Case](#business-case-here-is-your-why)
-* [Functional Overview](#functional-overview-this-is-the-most-important-part-on-your-product-box)
-* [Quality Goals](#quality-goals-the-key-drivers-of-architecture)
-* [Business Context](#business-context-explore-the-context-and-get-the-scope)
-* [Organisational Contraints](#organisational-and-technical-constraints-your-limitation-of-freedom)
-* [Technical Constraints](#organisational-and-technical-constraints-your-limitation-of-freedom)
-* [Architectural Hypotheses](#architectural-hypotheses-create-your-first-high-level-architectural-hypotheses-based-on-your-current-knowledge)
-* [Challenges & Risks](#challenges-and-risks-what-are-the-upcoming-challenges-and-the-resulting-risks)
+- [Business Case](#business-case-here-is-your-why)
+- [Functional Overview](#functional-overview-this-is-the-most-important-part-on-your-product-box)
+- [Quality Goals](#quality-goals-the-key-drivers-of-architecture)
+- [Business Context](#business-context-explore-the-context-and-get-the-scope)
+- [Organisational Contraints](#organisational-and-technical-constraints-your-limitation-of-freedom)
+- [Technical Constraints](#organisational-and-technical-constraints-your-limitation-of-freedom)
+- [Architectural Hypotheses](#architectural-hypotheses-create-your-first-high-level-architectural-hypotheses-based-on-your-current-knowledge)
+- [Challenges & Risks](#challenges-and-risks-what-are-the-upcoming-challenges-and-the-resulting-risks)
 
 #### Business Case: Here is your WHY
 
@@ -157,8 +166,8 @@ As you work out the functional overview of the software initiative as a product 
 
 Think the product box to get the answers to the following questions:
 
-* What business value does the software deliver?
-* What are the higher-level business functions?
+- What business value does the software deliver?
+- What are the higher-level business functions?
 
 With the answers to these questions, you can describe the key functional requirements at a high level.
 
@@ -169,7 +178,6 @@ Here you work out the three most important quality goals of the stakeholders for
 It's important that these quality goals are known by every team member because they shape your architecture.
 
 The standard [ISO/IEC 25010](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010) provides a good overview of possible quality attributes of interest.
-
 
 ### Business Context: Explore the context and get the scope
 
@@ -201,7 +209,7 @@ In larger enterprises, there are often a lot of technical constraints. There is 
 
 ### Architectural Hypotheses: Create your first high-level architectural hypotheses based on your current knowledge
 
-Congratulations - you've created your architectural playground. 
+Congratulations - you've created your architectural playground.
 
 Now you can create your first architectural hypotheses based on your current team knowledge.
 

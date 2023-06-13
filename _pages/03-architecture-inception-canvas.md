@@ -41,45 +41,75 @@ With this canvas, you can work efficiently, iteratively, and in a time-saving ma
   </a>
 
   <a href="#quality-goals-the-key-drivers-of-architecture" class="requirement quality-goals part">
-    <strong>Quality Goals</strong><br>
-    <small>
-      The three most important quality goals for the architecture, which have the highest priority for the most important stakeholder.
-    </small>
+    <div class="flex row space-between">
+      <div class="flex column">
+        <strong>Quality Goals</strong>
+        <small>
+          The three most important quality goals for the architecture, which have the highest priority for the most important stakeholder.
+        </small>
+      </div>
+      <i class="fa fa-certificate icon" aria-hidden="true"></i>
+    </div>
   </a>
 
   <a href="#architectural-hypotheses-create-your-first-high-level-architectural-hypotheses-based-on-your-current-knowledge" class="solution architecture-hypotheses part">
-   <strong>Architecture Hypotheses</strong><br>
-    <small>
-      Resulting architectureal hypotheses and important, expensive, large-scale or risiky decisions, including justifications.
-    </small>
+    <div class="flex row space-between">
+      <div class="flex column">
+        <strong>Architecture Hypotheses</strong>
+        <small>
+          Resulting architectureal hypotheses and important, expensive, large-scale or risiky decisions, including justifications.
+        </small>
+      </div>
+      <i class="fa fa-map-signs icon" aria-hidden="true"></i>
+    </div>
   </a>
 
   <a href="#challenges-and-risks-what-are-the-upcoming-challenges-and-the-resulting-risks" class="problem technical-challenges part">
-   <strong>Technical Challenges & Risks</strong><br>
-    <small>
-      Identified current known challenges and technical risks
-    </small>
+    <div class="flex row space-between">
+      <div class="flex column">
+        <strong>Technical Challenges & Risks</strong>
+        <small>
+          Identified current known challenges and technical risks
+        </small>
+      </div>
+      <i class="fa fa-exclamation-triangle icon" aria-hidden="true"></i>
+    </div>
   </a>
 
   <a href="#business-context-explore-the-context-and-get-the-scope" class="requirement business-context part">
-   <strong>Business Context</strong><br>
-    <small>
-      Separate your system under constructure as a black box from all its communication partners. Communication partners are neighbouring external systems and users.
-    </small>
+    <div class="flex row space-between">
+      <div class="flex column">
+        <strong>Business Context</strong>
+        <small>
+          Separate your system under constructure as a black box from all its communication partners. Communication partners are neighbouring external systems and users.
+        </small>
+      </div>
+      <i class="fa fa-map-o icon" aria-hidden="true"></i>
+    </div>
   </a>
 
   <a href="#organisational-and-technical-constraints-your-limitation-of-freedom" class="requirement organisational-constraints part">
-   <strong>Organisational Constraints</strong><br>
-    <small>
-      Any organisational requirement that limits the software architects freedom of decision.
-    </small>
+    <div class="flex row space-between">
+      <div class="flex column">
+        <strong>Organisational Constraints</strong>
+        <small>
+          Any organisational requirement that limits the software architects freedom of decision.
+        </small>
+      </div>
+      <i class="fa fa-sitemap icon" aria-hidden="true"></i>
+    </div>
   </a>
 
   <a href="#organisational-and-technical-constraints-your-limitation-of-freedom" class="requirement technical-constraints part">
-   <strong>Technical Constraints</strong><br>
-    <small>
-      Any technical requirement that limits the software architects freedom of decision.
-    </small>
+   <div class="flex row space-between">
+      <div class="flex column">
+        <strong>Technical Constraints</strong>
+        <small>
+          Any technical requirement that limits the software architects freedom of decision.
+        </small>
+      </div>
+      <i class="fa fa-cog gear icon" aria-hidden="true"></i>
+    </div>
   </a>  
 </div>
 

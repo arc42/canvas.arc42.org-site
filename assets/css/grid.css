@@ -183,3 +183,19 @@ a.gridlink {
 .flex-row-space-between {
   @apply flex row space-between;
 }
+
+/**
+  Please use landscape warning
+**/
+
+.please-use-landscape {
+  background-color: rgb(255, 199, 198);
+  text-align: center;
+  border-radius: 10px;
+  font-size: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+}

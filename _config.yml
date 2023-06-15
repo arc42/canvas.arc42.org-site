@@ -4,8 +4,10 @@
 remote_theme: mmistakes/minimal-mistakes
 github: metadata
 
+minimal_mistakes_skin    : "default" 
+
 # Site Settings
-locale          : "de"
+locale          : "en"
 title           : "Software Architecture Canvas"
 title_separator : "-"
 name            : ""
@@ -52,13 +54,14 @@ author:
 include:
   - .htaccess
   - _pages
+  - robots.txt
   - _downloads
+
 exclude:
   - Dockerfile
   - _the-canvas*
   - _docker-compose*
   - _develop-site.sh
-  - Dockerfile
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
@@ -74,16 +77,14 @@ exclude:
   - gulpfile.js
   - LICENSE
   - log
-  - node_modules
-  - package.json
-  - Rakefile
   - README
   - tmp
-  - zz-originale
-  - zz-production-site
-
+ 
 keep_files:
   - .git
+  - sitemap.xml
+  - robots.txt
+  
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 

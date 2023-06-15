@@ -109,6 +109,29 @@ Click on an element to see a more detailed description, or just scroll down.
   </div>
 </div>
 
+<div class="legend">
+  <div class="placeholder">
+  </div>
+
+  <div class="entries">
+    <div class="square green">
+    </div>
+    <span class="label">
+      Requirements: What should the system do?
+    </span>
+    <div class="square blue">
+    </div>
+    <span class="label">
+      Solution: How is it done? How does it work?
+    </span>
+    <div class="square red">
+    </div>
+    <span class="label">
+      What are known problems and risks?
+    </span> 
+  </div>
+</div>
+
 
 <a id="value"/>
 ### Value Proposition

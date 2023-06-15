@@ -184,6 +184,82 @@ a.gridlink {
   @apply flex row space-between;
 }
 
+.square {
+  height: 25px;
+  width: 25px;
+  border-color:rgba(0, 0, 0, 0.247);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+/**
+  Color utilities
+*/
+.green {
+  background-color: rgb(143, 228, 180);
+}
+
+.red {
+  background-color: rgb(255, 199, 198);
+}
+
+.blue {
+  background-color: rgb(148, 215, 239);
+}
+
+/**
+ Canvas Legend
+**/
+.legend {
+  display: grid;
+  grid-template-columns: 0.6fr 0.4fr;
+}
+
+.legend > .placeholder {
+  grid-column: 1; 
+  grid-row: 1;
+}
+
+.legend > .entries {
+  grid-column: 2; 
+  grid-row: 1; 
+  display:grid; 
+  grid-template-columns: 30px 1fr; 
+  margin-top: 20px
+}
+
+.legend > .green {
+  grid-column: 1; 
+  grid-row: 1;
+}
+
+.legend > .green ~ .label {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.legend > .blue {
+  grid-column: 1; 
+  grid-row: 2;
+}
+
+.legend > .blue ~ .label {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.legend > .red {
+  grid-column: 1; 
+  grid-row: 3;
+}
+
+.legend > .red ~ .label {
+  grid-column: 2;
+  grid-row: 3;
+}
+
 /**
   Please use landscape warning
 **/

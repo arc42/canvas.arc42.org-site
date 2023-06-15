@@ -15,7 +15,7 @@ The Architecture Inception Canvas is a collaborative technique for elaborating t
 With this canvas, you can work efficiently, iteratively, and in a time-saving manner on the software architecture of your software products as a team sport.
 
 <div class="please-use-landscape">
-  <strong>Please use the landscape mode on your phone to see the animated canvas!</strong>
+  <strong>Please use the landscape mode of your phone to see the canvas!</strong>
   <i class="fa fa-repeat icon" aria-hidden="true"></i>
 </div>
 
@@ -120,10 +120,6 @@ With this canvas, you can work efficiently, iteratively, and in a time-saving ma
 
 <script>
 
-  function landscape() {
-    return screen.orientation.type === 'landscape-primary' || screen.orientation.type === 'landscape-secondary';
-  }
-
   function architectureInceptionCanvas() {
     return document.querySelector('.architecture-inception-canvas')
   }
@@ -143,18 +139,17 @@ With this canvas, you can work efficiently, iteratively, and in a time-saving ma
   }
 
   function checkLandscape() {
-    if (typeof screen.orientation !== undefined) { // Check if it is a mobile
-      if(landscape()) {
+    const landscape = !window.matchMedia("(orientation: portrait)").matches;
+      if(landscape) {
         showCanvas();
       } else {
         hideCanvas();
       }
-    }
   }
 
   checkLandscape();
 
-  window.addEventListener("orientationchange", function() {
+  window.matchMedia("(orientation: portrait)").addEventListener("change", _ => {
     checkLandscape();
   });
 </script>

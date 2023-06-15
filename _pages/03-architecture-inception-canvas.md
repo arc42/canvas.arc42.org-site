@@ -118,10 +118,37 @@ With this canvas, you can work efficiently, iteratively, and in a time-saving ma
   </a>  
 </div>
 
+<div class="legend">
+  <div class="placeholder">
+  </div>
+
+  <div class="entries">
+    <div class="square green">
+    </div>
+    <span class="label">
+      Goals: What should the software do?
+    </span>
+    <div class="square blue">
+    </div>
+    <span class="label">
+      Solution: How we can achieve it?
+    </span>
+    <div class="square red">
+    </div>
+    <span class="label">
+      Assessment: How do we evaluate the situation?
+    </span> 
+  </div>
+</div>
+
 <script>
 
   function architectureInceptionCanvas() {
     return document.querySelector('.architecture-inception-canvas')
+  }
+
+  function legend() {
+    return document.querySelector('.legend')
   }
 
   function portraitWarning() {
@@ -130,11 +157,13 @@ With this canvas, you can work efficiently, iteratively, and in a time-saving ma
 
   function hideCanvas() {
     architectureInceptionCanvas().style.display = 'none';
+    legend().style.display = 'none';
     portraitWarning().style.display = 'flex';
   }
 
   function showCanvas() {
     architectureInceptionCanvas().style.display = 'grid';
+    legend().style.display = 'grid';
     portraitWarning().style.display = 'none';
   }
 

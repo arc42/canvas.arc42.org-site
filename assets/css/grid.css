@@ -180,10 +180,6 @@ a.gridlink {
   justify-content: space-between;
 }
 
-.flex-row-space-between {
-  @apply flex row space-between;
-}
-
 .square {
   height: 25px;
   width: 25px;

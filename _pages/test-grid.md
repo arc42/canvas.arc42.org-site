@@ -8,55 +8,68 @@ header:
 excerpt: "**The shortest description of your architecture**"
 ---
 
-## Structure of the ACC
-
+## Structure of the Architecture Communication Canvas (ACC)
 
 
 Click on an element to see a more detailed description, or just scroll down.
-<div class="grid-container">
 
-  <div class="requirement value part">
-    <a href="#value" class="gridlink">
+<div class="grid-container architecture-communication-canvas">
+
+  <a href="#value" class="part requirement value">
+  <div class="flex row space-between">
+  <div class="flex column">
     <strong>Value Proposition</strong><br>
      <small>
-      What is the core business case?
-     </small>
-    </a>
-  </div>
-
-    <a href="#stakeholder" class="gridlink">
-  <div class="requirement stakeholder part ">
-     <strong>Key Stakeholder</strong><br />
-     <small>
-      For whom are we creating value?<br />
-      Who are the customer?<br />
-      Who is paying?<br />
-      Who is contributing?<br />
+      What is the core business case or economic driver?
      </small>
   </div>
-    </a>
-
-    <a href="#functions" class="gridlink">
-  <div class="requirement functions part">
-    <strong>Core Functions</strong><br>
-    <small>
-    Most important functions?<br>
-    Supported processes or activities
-    </small>
+  <i class="fa fa-briefcase icon" aria-hidden="true"></i>
   </div>
-    </a>
+  </a>
 
-  <div class="requirement quality part">
-    <a href="#quality" class="gridlink">
-    <strong>Quality Requirement</strong><br>
-    <small>
+
+  <a href="#stakeholder" class="part requirement stakeholder">
+    <div class="flex row space-between">
+      <div class="flex column ">
+        <strong>Key Stakeholder</strong><br />
+        <small><ul>
+<li>For whom are we creating value?</li>
+<li>Who are the customer?</li>
+<li>Who is paying?</li>
+<li>Who is contributing?</li>
+        </ul></small>
+      </div>
+      <i class="fa fa-people-group icon" aria-hidden="true"></i>
+    </div>
+  </a>
+
+  <a href="#functions" class="part requirement functions">
+    <div class="flex row space-between">
+      <div class="flex column">
+        <strong>Core Functions</strong><br>
+        <small><ul>
+<li>Most important functions?</li>
+<li>Supported processes or activities</li>
+        </ul></small>
+      </div>
+      <i class="fa fa-list-ul icon" aria-hidden="true"></i>
+    </div>
+  </a>
+
+<a href="#quality" class="part requirement quality">
+  <div class="flex row space-between">
+    <div class="flex column">
+      <strong>Quality Requirement</strong><br>
+      <small>
     Important quality requirements:<br>
     Speed, scalability, reliability,<br>
     usability, security, safety, capacity,<br>
     flexibility or similar.
-    </small>
-    </a>
+      </small>
+    </div>
+      <i class="fa fa-certificate icon" aria-hidden="true"></i>
   </div>
+</a>
   
   
   
@@ -93,6 +106,29 @@ Click on an element to see a more detailed description, or just scroll down.
     What information is missing or has gotten lost?<br>
     What is hindering the team from delivering better value faster?<br>
     </small>
+  </div>
+</div>
+
+<div class="legend">
+  <div class="placeholder">
+  </div>
+
+  <div class="entries">
+    <div class="square green">
+    </div>
+    <span class="label">
+      Requirements: What should the system do?
+    </span>
+    <div class="square blue">
+    </div>
+    <span class="label">
+      Solution: How is it done? How does it work?
+    </span>
+    <div class="square red">
+    </div>
+    <span class="label">
+      What are known problems and risks?
+    </span> 
   </div>
 </div>
 

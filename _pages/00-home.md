@@ -3,18 +3,19 @@ title: Software Architecture Canvas
 layout: splash
 permalink: /
 header:
-  overlay_image: /images/splash/webdev.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  overlay_image: /images/splash/home-splash.webp
+  caption: "Background photo credit: [**Samantha Gades**](https://unsplash.com/de/@srosinger3997)"
   overlay_filter: rgba(0, 0, 0, 0.6)
 excerpt: "**As lean as architecture documentation can ever get**"
 
 
 feature_row_home:
-- title: "How-To"
+- title: "What is a Canvas?"
   excerpt: "
-  How to use this site, what is a canvas, why should you care
+  An overview of canvas-types for software- and system development,
+  and why you should care.
   "
-  url: "/howto"
+  url: "/canvas"
   btn_label: "read more..."
   btn_class: "btn--primary"
 
@@ -27,7 +28,7 @@ feature_row_home:
   btn_class: "btn--primary"
 
 - title: "Communication Canvas"
-  excerpt: "![](/images/home/acc-regions.png)<br>
+  excerpt: "![](/images/home/acc-regions-300px.png)<br>
   Communicating existing architectures.<br>
   The _elevator pitch_ of software architecture, providing 
   the most compact way of explaining and communicating your system.

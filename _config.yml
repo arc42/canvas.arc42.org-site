@@ -86,7 +86,7 @@ keep_files:
   - robots.txt
   
 encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown_ext: "markdown,md"
 
 # Liquid
 strict_front_matter: true

@@ -38,7 +38,7 @@ With this canvas, you can work efficiently, iteratively, and in a time-saving ma
       <div class="flex column">
         <strong>Functional Overview</strong>
         <small>
-          The most important functional requirements at a high lvel.
+          The most important functional requirements at a high level.
         </small>
       </div>
       <i class="fa fa-list-ul icon" aria-hidden="true"></i>
@@ -327,8 +327,9 @@ This section answers the question of how you evaluate the current situation in r
 
 ## Download
 
-- [PDF](/downloads/architecture-inception-canvas.pdf), e.g. for on-site workshops
-- [PNG](/downloads/architecture-inception-canvas.png), as background
-- [Template for Miro® boards]()
+- [PDF](/downloads/architecture-inception-canvas.pdf)
+- [PNG](/downloads/architecture-inception-canvas.png)
+- [Template for Draw.io](/downloads/architecture-inception-canvas.drawio)
+- [Template for Miro® boards](/downloads/architecture-inception-canvas.rtb)
 
 If you want to create your own version, just clone our [Github repository](https://github.com/arc42/canvas.arc42.org-site).

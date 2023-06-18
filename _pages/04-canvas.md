@@ -35,6 +35,7 @@ Below you find a (non-exhaustive) overview of some approaches we consider useful
 * [Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas) by the awesome DDD-Crew
 * [Context Canvas](https://re-magazine.ireb.org/articles/the-context-canvas) to improve Requirements Engineering, by [IREB](https://www.ireb.org)
 * [Customer Journey Canvas](https://www.designabetterbusiness.tools/tools/customer-journey-canvas) helps to see how a customer experiences a problem
+* [Wardley-Mapping Canvas](https://miro.com/blog/wardley-maps-whiteboard-canvas/) helps teams create a Wardley Map, making _strategy_ a collaborative endavour, allowing technical and business leaders to cooperate on a joint model.
 
 
 ## Canvas in Software Architecture

@@ -38,7 +38,7 @@ With this canvas, you can work efficiently, iteratively, and in a time-saving ma
       <div class="flex column">
         <strong>Functional Overview</strong>
         <small>
-          The most important functional requirements at a high lvel.
+          The most important functional requirements at a high level.
         </small>
       </div>
       <i class="fa fa-list-ul icon" aria-hidden="true"></i>

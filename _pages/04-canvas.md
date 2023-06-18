@@ -30,9 +30,10 @@ Canvas users have to focus on the important stuff.
 Numerous other groups and disciplines created canvases for their own domain or purpose.
 Below you find a (non-exhaustive) overview of some approaches we consider useful:
 
-* [Product Canvas](https://www.romanpichler.com/tools/the-product-canvas/), by Roman Pichler
+* [Product Canvas](https://www.romanpichler.com/tools/the-product-canvas/) by Roman Pichler
+* [Lean Canvas](https://leanstack.com/lean-canvas) by Ash Maurya
 * [Lean UX Canvas (v2)](https://jeffgothelf.com/blog/leanuxcanvas-v2/)
-* [Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas) by the awesome DDD-Crew
+* [Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas) by the awesome [DDD-Crew](https://github.com/ddd-crew)
 * [Context Canvas](https://re-magazine.ireb.org/articles/the-context-canvas) to improve Requirements Engineering, by [IREB](https://www.ireb.org)
 * [Customer Journey Canvas](https://www.designabetterbusiness.tools/tools/customer-journey-canvas) helps to see how a customer experiences a problem
 

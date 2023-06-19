@@ -3,7 +3,7 @@ title: Contributors
 layout: splash
 permalink: /contributors
 header:
-  overlay_image: /images/splash/canvas-splash.png
+  overlay_image: /images/splash/canvas-splash.webp
   caption: "Photo credit: **DALL.E** and Gernot Starke"
 excerpt: "**Two architects striving for minimalism**"
 ---

@@ -1,7 +1,7 @@
 # Jekyll technical configuration!
 #
 
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 github: metadata
 
 minimal_mistakes_skin    : "default" 
@@ -128,7 +128,6 @@ timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-numbered-headings
   - jekyll-include-cache
@@ -137,9 +136,10 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-numbered-headings
+  - jekyll-include-cache
+  - jemoji
   
 
 

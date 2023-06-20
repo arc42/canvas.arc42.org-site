@@ -60,7 +60,7 @@ Click on an element to see a more detailed description, or just scroll down.
 <a href="#quality" class="part requirement quality">
   <div class="flex row space-between">
     <div class="flex column">
-      <strong>Quality Requirement</strong><br>
+      <strong>Quality Requirements</strong><br>
       <small>
     Important quality requirements:<br>
     Speed, scalability, reliability,<br>
@@ -103,7 +103,7 @@ Click on an element to see a more detailed description, or just scroll down.
 <a href="#decisions" class="part solution decisions">
   <div class="flex row space-between">
     <div class="flex column">
-      <strong>Core Decisions - Good or Bad</strong><br>
+      <strong>Core Decisions - <br />Good or Bad</strong><br />
       <small>
         Which decisions lead to the current state?
       </small>

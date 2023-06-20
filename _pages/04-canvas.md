@@ -4,7 +4,7 @@ layout: splash
 permalink: /canvas
 header:
   overlay_image: /images/splash/canvas-splash.webp
-  caption: "Photo credit: DALL.E / Gernot Starke"
+  caption: "Photo credit: **DALL.E** and Gernot Starke"
 excerpt: "**...structured frameworks to facilitate understanding**"
 ---
 

@@ -3,7 +3,7 @@ title: Architecture Communication Canvas
 layout: splash
 permalink: /architecture-communication-canvas
 header:
-  overlay_image: /images/splash/acc-splash.png
+  overlay_image: /images/splash/acc-splash.webp
   overlay_filter: rgba(0, 0, 0, 0.6)
 excerpt: "**The shortest possible description of your architecture**"
 ---

@@ -3,7 +3,7 @@ title: Architecture Inception Canvas
 layout: splash
 permalink: /architecture-inception-canvas
 header:
-  overlay_image: /images/splash/aic-splash.png
+  overlay_image: /images/splash/aic-splash.webp
   overlay_filter: rgba(0, 0, 0, 0.6)
 excerpt: '**An Efficient and Collaborative Way to Define your Software Architecture Playground**'
 ---

@@ -62,7 +62,6 @@ Click on an element to see a more detailed description, or just scroll down.
     <div class="flex column">
       <strong>Quality Requirements</strong><br>
       <small>
-    Important quality requirements:<br>
     Speed, scalability, reliability,<br>
     usability, security, safety, capacity,<br>
     flexibility or similar.

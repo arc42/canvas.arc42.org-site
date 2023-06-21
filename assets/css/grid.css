@@ -122,12 +122,12 @@ a.part:hover {
 
 .architecture-communication-canvas .functions {
   grid-column: 2;
-  grid-row: 3 / span 3;
+  grid-row: 3 / span 2;
 }
 
 .architecture-communication-canvas .context {
   grid-column: 2;
-  grid-row: 6 / span 3;
+  grid-row: 5 / span 4;
 }
 
 .architecture-communication-canvas .quality {

@@ -246,7 +246,9 @@ Organisational constraints often include time and money. We've also seen that th
 
 **Technical constraints**
 
-In larger enterprises, there are often a lot of technical constraints. There is often an overarching architecture committee that sets the standards for technology choices. For example, if you decide to build a single-page application, the overarching architecture committee will set Angular as the SPA framework, so there are expertise synergies between teams.
+In larger enterprises, there are often a lot of technical constraints. There is often an overarching architecture committee that sets the standards for technology choices.
+
+For example, if you decide to build a single-page application, the overarching architecture committee will set Angular as the SPA framework, so there are expertise synergies between teams.
 
 ### Architectural Hypotheses: Create your first high-level architectural hypotheses based on your current knowledge
 

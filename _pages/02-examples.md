@@ -22,3 +22,8 @@ gallery:
 ---
 
 {% include gallery caption="A few examples - click for enlarged version." %}
+
+To view the originals, use the following links:
+
+* HtmlSanityCheck: [Miro (read-only)](https://miro.com/app/board/uXjVM4u3fzg=/?share_link_id=696859326536)
+* MaMa: [Miro (read-only)](https://miro.com/app/board/uXjVM7oIZJU=/?share_link_id=608410448102)

@@ -8,11 +8,9 @@ header:
 excerpt: '**An Efficient and Collaborative Way to Define your Software Architecture Playground**'
 ---
 
-## Architecture Inception Canvas
+## Structure of the Architecture Inception Canvas (AIC)
 
-The Architecture Inception Canvas is a collaborative technique for elaborating the software architecture playground of a software initiative.
-
-With this canvas, you can work efficiently, iteratively, and in a time-saving manner on the software architecture of your software products as a team sport.
+Click on an element to see a more detailed description, or just scroll down.
 
 <div class="please-use-landscape">
   <strong>Please use the landscape mode of your phone to see the canvas!</strong>
@@ -183,63 +181,6 @@ With this canvas, you can work efficiently, iteratively, and in a time-saving ma
   });
 </script>
 
-### Motivation
-
-The situation that probably every software developer loves: the start of building a new system and the resulting technical questions and discussions:
-
-- Do we take a micro services approach?
-- Functional or object oriented?
-- Do we follow the hexagonal architecture approach?
-- Do we do an event-driven approach with CQRS?
-- Or do we follow a serverless approach?
-- Java, F#, Go or Rust?
-- Azure, AWS or GCP?
-- NoSQL vs. SQL? MongoDB vs. PostgreSQL?
-- Angular vs. React vs. Solid?
-- Docker vs. Podman?
-- Continuous Integration and Deployment Pipelines? GitOps?
-
-A lot of technical questions for technology lovers (like us 😀).
-
-But wait... are these questions even relevant at the beginning of a software initiative?
-
-In our roles as Software Architects, we've been involved with many new software initiatives with product teams.
-
-And it's always the same traps that software development teams first fall into: The need to discuss these fancy technical and low-level architectural design topics.
-
-> And it's always the same traps that software development teams first fall into: The need to discuss these fancy technical and low-level architectural design topics.
-
-Yes, we as Software Developers also like to discuss this kind of technical stuff.
-
-But these discussions are useless at the beginning of building a new system, because you have to define your engineering playground first.
-
-If you don't know your playground, you have no chance to argue technical decisions.
-
-Over the years, my experience has been that there are always the same questions that need to be discussed and answered across the product team before you start discussing technical things.
-
-That's why we developed the Architecture Inception Canvas, which helps product teams lay the groundwork for software architecture in an _efficient_ and _collaborative_ way.
-
-### The structure of the Architecture Inception Canvas
-
-The Architecture Inception Architecture Canvas is divided into three main sections:
-
-- **Goals**: What should the software do? (green)
-- **Solution**: How can we achieve it? (blue)
-- **Assessment**: How do we evaluate the situation? (red)
-
-![](images/canvas/architecture-inception-canvas-regions.webp)
-
-The Architecture Inception Canvas contains the following parts:
-
-- [Business Case](#business-case-here-is-your-why)
-- [Functional Overview](#functional-overview-this-is-the-most-important-part-on-your-product-box)
-- [Quality Goals](#quality-goals-the-key-drivers-of-architecture)
-- [Business Context](#business-context-explore-the-context-and-get-the-scope)
-- [Organisational Contraints](#organisational-and-technical-constraints-your-limitation-of-freedom)
-- [Technical Constraints](#organisational-and-technical-constraints-your-limitation-of-freedom)
-- [Architectural Hypotheses](#architectural-hypotheses-create-your-first-high-level-architectural-hypotheses-based-on-your-current-knowledge)
-- [Challenges & Risks](#challenges-and-risks-what-are-the-upcoming-challenges-and-the-resulting-risks)
-
 #### Business Case: Here is your WHY
 
 If the business needs to make money, there is an economic driver and a business case behind every software initiative. If not, it's a hobby or an NPO project.
@@ -258,7 +199,7 @@ With this section of the Architecture Inception Canvas, you put the entrepreneur
 
 This promotes the intrinsic motivation of each team member and helps in the daily macro and micro decision making in the realisation of the software product.
 
-### Functional Overview: This is the most important part on your product box
+### Functional Overview: This is your product box
 
 As you work out the functional overview of the software initiative as a product team, imagine a product box of your software - what is on your software box?
 
@@ -305,7 +246,9 @@ Organisational constraints often include time and money. We've also seen that th
 
 **Technical constraints**
 
-In larger enterprises, there are often a lot of technical constraints. There is often an overarching architecture committee that sets the standards for technology choices. For example, if you decide to build a single-page application, the overarching architecture committee will set Angular as the SPA framework, so there are expertise synergies between teams.
+In larger enterprises, there are often a lot of technical constraints. There is often an overarching architecture committee that sets the standards for technology choices.
+
+For example, if you decide to build a single-page application, the overarching architecture committee will set Angular as the SPA framework, so there are expertise synergies between teams.
 
 ### Architectural Hypotheses: Create your first high-level architectural hypotheses based on your current knowledge
 

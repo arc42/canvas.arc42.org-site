@@ -35,7 +35,7 @@ Click on an element to see a more detailed description, or just scroll down.
         <strong>Key Stakeholder</strong><br />
         <small>
           For whom are we creating value?<br />
-          Who are the customer?<br />
+          Who are the customers?<br />
           Who is paying?<br />
           Who is contributing?<br />
         </small>

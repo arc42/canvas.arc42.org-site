@@ -94,7 +94,7 @@ Click on an element to see a more detailed description, or just scroll down.
         Major building blocks of the system
       </small>
     </div>
-      <i class="fa-solid fa-boxes-stacked icon" aria-hidden="true"></i>
+      <i class="fa-solid fa-shapes icon" aria-hidden="true"></i>
   </div>
 </a>  
 
@@ -134,7 +134,7 @@ Click on an element to see a more detailed description, or just scroll down.
         What is hindering the team from delivering better value faster?<br>
       </small>
     </div>
-      <i class="fa-solid fa-circle-question icon" aria-hidden="true"></i>
+      <i class="fa-solid fa-question icon" aria-hidden="true"></i>
   </div>
 </a>
 

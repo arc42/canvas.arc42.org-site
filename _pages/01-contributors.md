@@ -66,6 +66,12 @@ Pragmatic. Experienced trainer for software architecture, co-founder of the iSAQ
 </ul>
 </div>
 
+### Benjamin Wolf
+INNOQ Senior Consultant, arc42 user and contributor, iSAQB Co-chair.
+
+
 ### Supporter
 
 Part of this work has been supported by [INNOQ](https://innoq.com).
+
+See the [list of all contributors](https://github.com/arc42/canvas.arc42.org-site/graphs/contributors).

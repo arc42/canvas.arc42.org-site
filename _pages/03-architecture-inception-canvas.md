@@ -271,9 +271,9 @@ This section answers the question of how you evaluate the current situation in r
 ## Download
 
 - [PDF](/downloads/architecture-inception-canvas.pdf)
-- [PNG](/downloads/architecture-inception-canvas.png)
-- [Template for Draw.io](/downloads/architecture-inception-canvas.drawio)
+- [JPG](/downloads/architecture-inception-canvas.jpg)
 - [Miro® template on Miroverse](https://miro.com/miroverse/architecture-inception-canvas/)
-- [File template for Miro® boards](/downloads/architecture-inception-canvas.rtb)
+- [File template for Miro®](/downloads/architecture-inception-canvas.rtb)
+- [Template for Draw.io](/downloads/architecture-inception-canvas.drawio)
 
 If you want to create your own version, just clone our [Github repository](https://github.com/arc42/canvas.arc42.org-site).

@@ -31,7 +31,7 @@ Click on an element to see a more detailed description, or just scroll down.
     </div>
   </a>
 
-  <a href="#functional-overview-this-is-the-most-important-part-on-your-product-box" class="requirement part functional-overview">
+  <a href="#functional-overview-this-is-your-product-box" class="requirement part functional-overview">
     <div class="flex row space-between">
       <div class="flex column">
         <strong>Functional Overview</strong>

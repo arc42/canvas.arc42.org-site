@@ -17,6 +17,10 @@ gallery:
     image_path: /examples/acc-4-Mama.400px.webp
     alt: "architecture communication canvas for MaMa Health Insurance card"
     title: "MaMa Health Insurance Card"
+  - url: /examples/acc-4-gehalt.io.png400px.webp
+    image_path: /examples/acc-4-gehalt.io.png1920px.webp
+    alt: "architecture communication canvas for gehalt.io"
+    title: "gehalt.io, an INNOQ internal application"
 
   
 ---

@@ -9,7 +9,7 @@ excerpt: "**Two architects striving for minimalism**"
 ---
 
 ### Patrick Roos
-Founder of [workingsoftware.dev](https://workingsoftware.dev), Software Architect and consultant, blog author. Inventor of the original _Software Architecture Canvas_, currently known as the ["Architecture Inception Canvas"](https://canvas.arc42.org/inception-canvas).
+Founder of [workingsoftware.dev](https://workingsoftware.dev), Software Architect and consultant, blog author. Inventor of the original [_Software Architecture Canvas_](https://www.workingsoftware.dev/software-architecture-canvas/), currently known as the ["Architecture Inception Canvas"](https://canvas.arc42.org/inception-canvas).
 
 <div class="page__footer-follow">
   <ul class="social-icons">

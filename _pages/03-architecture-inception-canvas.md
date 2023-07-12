@@ -268,11 +268,14 @@ It's very important to work this out, evaluate it continuously, and communicate 
 
 This section answers the question of how you evaluate the current situation in relation to the elaborated architectural playground.
 
+
 ## Download
 
-- [PDF](/downloads/architecture-inception-canvas.pdf)
-- [JPG](/downloads/architecture-inception-canvas.jpg)
 - [Miro® template on Miroverse](https://miro.com/miroverse/architecture-inception-canvas/)
+- [PDF](/downloads/architecture-inception-canvas.pdf)
+- [PDF with arc42 documentation hints](/downloads/architecture-inception-canvas-hints.pdf)
+- [PNG](/downloads/architecture-inception-canvas.png)
+- [PNG with arc42 documentation hints](/downloads/architecture-inception-canvas-hints.png)
 - [File template for Miro®](/downloads/architecture-inception-canvas.rtb)
 - [Template for Draw.io](/downloads/architecture-inception-canvas.drawio)
 

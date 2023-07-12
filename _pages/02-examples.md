@@ -21,6 +21,10 @@ gallery:
     image_path: /examples/acc-4-gehalt.io.png400px.webp
     alt: "architecture communication canvas for gehalt.io"
     title: "gehalt.io, an INNOQ internal application"
+  - url: /examples/aic-techradar-1920px.webp
+    image_path: /examples/aic-techradar-400px.webp
+    alt: "architecture inception canvas for tech radar"
+    title: "Tech Radar as a Service"    
 
   
 ---
@@ -31,3 +35,4 @@ To view the originals, use the following links:
 
 * HtmlSanityCheck: [Miro (read-only)](https://miro.com/app/board/uXjVM4u3fzg=/?share_link_id=696859326536)
 * MaMa: [Miro (read-only)](https://miro.com/app/board/uXjVM7oIZJU=/?share_link_id=608410448102)
+* Tech Radar: [Miro (read-only)](https://miro.com/app/board/uXjVM2qGGX0=/?share_link_id=435103217384)

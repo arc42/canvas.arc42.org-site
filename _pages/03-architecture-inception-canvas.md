@@ -279,7 +279,7 @@ This section answers the question of how you evaluate the current situation in r
 
 ## arc42 compatibility
 
-If you're working with the [arc42 template](https://arc42.org/overview), you can easily switch from the Architecture Inception Canvas to your arc42 template. Take a look at the additional arc42 documentation tips in the downloads below:
+If you're working with the [arc42 template](https://arc42.org/overview), you can easily switch from the Architecture Inception Canvas to your arc42 template. Take a look at the additional arc42 documentation hints in the downloads below:
 
 - [PDF with arc42 documentation hints](/downloads/architecture-inception-canvas-hints.pdf)
 - [PNG with arc42 documentation hints](/downloads/architecture-inception-canvas-hints.png)

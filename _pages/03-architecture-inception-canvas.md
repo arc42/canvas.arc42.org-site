@@ -273,10 +273,17 @@ This section answers the question of how you evaluate the current situation in r
 
 - [Miro® template on Miroverse](https://miro.com/miroverse/architecture-inception-canvas/)
 - [PDF](/downloads/architecture-inception-canvas.pdf)
-- [PDF with arc42 documentation hints](/downloads/architecture-inception-canvas-hints.pdf)
 - [PNG](/downloads/architecture-inception-canvas.png)
-- [PNG with arc42 documentation hints](/downloads/architecture-inception-canvas-hints.png)
 - [File template for Miro®](/downloads/architecture-inception-canvas.rtb)
 - [Template for Draw.io](/downloads/architecture-inception-canvas.drawio)
+
+## arc42 compatibility
+
+If you're working with the [arc42 template](https://arc42.org/overview), you can easily switch from the Architecture Inception Canvas to your arc42 template. Take a look at the additional arc42 documentation tips in the downloads below:
+
+- [PDF with arc42 documentation hints](/downloads/architecture-inception-canvas-hints.pdf)
+- [PNG with arc42 documentation hints](/downloads/architecture-inception-canvas-hints.png)
+
+
 
 If you want to create your own version, just clone our [Github repository](https://github.com/arc42/canvas.arc42.org-site).

@@ -5,7 +5,7 @@ permalink: /contributors
 header:
   overlay_image: /images/splash/canvas-splash.webp
   caption: "Photo credit: **DALL.E** and Gernot Starke"
-excerpt: "**Two architects striving for minimalism**"
+excerpt: "**Three architects striving for minimalism**"
 ---
 
 ### Patrick Roos

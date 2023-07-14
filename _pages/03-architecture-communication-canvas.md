@@ -62,9 +62,8 @@ Click on an element to see a more detailed description, or just scroll down.
     <div class="flex column">
       <strong>Quality Requirements</strong><br>
       <small>
-    Speed, scalability, reliability,<br>
-    usability, security, safety, capacity,<br>
-    flexibility or similar.
+    Speed, scalability, reliability, usability, security, 
+    safety, capacity, flexibility or similar.
       </small>
     </div>
       <i class="fa fa-certificate icon" aria-hidden="true"></i>
@@ -78,7 +77,8 @@ Click on an element to see a more detailed description, or just scroll down.
     <div class="flex column">
       <strong>Business Context</strong><br>
       <small>Important external interfaces
-    or neighbouring systems.
+    or neighbouring systems,<br>
+    including important actors or user roles
       </small>
   </div>
       <i class="fa fa-link icon" aria-hidden="true"></i>
@@ -91,7 +91,8 @@ Click on an element to see a more detailed description, or just scroll down.
     <div class="flex column">
       <strong>Components/Modules</strong><br>
       <small>
-        Major building blocks of the system
+        Major building blocks of the system,<br>
+        important subsystems, modules, services.
       </small>
     </div>
       <i class="fa-solid fa-shapes icon" aria-hidden="true"></i>

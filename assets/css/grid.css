@@ -111,45 +111,45 @@ a.part:hover {
 }
 
 .architecture-communication-canvas .value {
-  grid-column: 1 / span 4;
+  grid-column: 1 / span 1;
   grid-row: 1 / span 2;
 }
 
 .architecture-communication-canvas .stakeholder {
-  grid-column: 1;
-  grid-row: 3 / span 6;
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 3;
 }
 
 .architecture-communication-canvas .functions {
   grid-column: 2;
-  grid-row: 3 / span 2;
-}
-
-.architecture-communication-canvas .context {
-  grid-column: 2;
-  grid-row: 5 / span 4;
+  grid-row: 1 / span 3;
 }
 
 .architecture-communication-canvas .quality {
-  grid-column: 3;
-  grid-row: 3 / span 2;
+  grid-column: 2;
+  grid-row: 4 / span 2;
+}
+
+.architecture-communication-canvas .context {
+  grid-column: 1 / span 2;
+  grid-row: 6 / span 4;
 }
 .architecture-communication-canvas .decisions {
   grid-column: 3;
-  grid-row: 5 / span 2;
+  grid-row: 1 / span 5;
 }
 .architecture-communication-canvas .components {
   grid-column: 3 / span 2;
-  grid-row: 7 / span 2;
+  grid-row: 6 / span 4;
 }
 
 .architecture-communication-canvas .technology {
   grid-column: 4;
-  grid-row: 3 / span 4;
+  grid-row: 1 / span 5;
 }
 .architecture-communication-canvas .risks {
   grid-column: 1 / span 4;
-  grid-row: 9 / span 2;
+  grid-row: 10 / span 2;
 }
 
 a.gridlink {

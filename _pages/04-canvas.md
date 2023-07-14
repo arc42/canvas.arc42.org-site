@@ -49,6 +49,6 @@ He needed an approach to document legacy systems with a minimal effort - which r
 
 Both architecture canvas approaches have been applied to several real-world systems - which are not open-source, and therefore cannot be disclosed in original here!
 
-## Examples are under way
+## Examples
 
 Please see our [examples](/examples) page - we strive to provide a useful collection.

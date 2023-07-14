@@ -218,7 +218,7 @@ Here you work out the three most important quality goals of the stakeholders for
 
 It's important that these quality goals are known by every team member because they shape your architecture.
 
-The standard [ISO/IEC 25010](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010) provides a good overview of possible quality attributes of interest.
+The standard [ISO/IEC 25010](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010) provides an overview of possible quality attributes of interest, the modern arc42 [quality model (Q42)](https://quality.arc42.org) collects more than 130 quality attributes with extensive explanation and examples.
 
 ### Business Context: Explore the context and get the scope
 

@@ -8,5 +8,7 @@ main:
     url: /architecture-communication-canvas
   - title: "Examples"
     url: /examples
+  - title: "FAQ"
+    url: /faq
   - title: "Contributors"
     url: /contributors

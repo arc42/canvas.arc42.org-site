@@ -48,14 +48,10 @@ Pragmatic. Experienced trainer for software architecture, co-founder of the iSAQ
       <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
 
     
+    <li><a href="https://gernotstarke.de/"><i class="fa-solid fa-globe" aria-hidden="true"></i> Website</a></li>
     <li><a href="https://github.com/gernotstarke"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
 
     <li><a href="https://www.youtube.com/arc42-video/"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> YouTube</a></li>
-
-    <li>
-        <i class="fab fa-fw fa-twitter" aria-hidden="true"></i>
-        <a href="https://twitter.com/_gernotstarke">Twitter</a>
-      </li>
 
     <li>
         <i class="fab fa-fw fa-mastodon" aria-hidden="true"></i>

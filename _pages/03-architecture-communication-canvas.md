@@ -266,5 +266,6 @@ See the companion [Technology Stack Canvas](https://techstackcanvas.io/).
 * [png](/downloads/architecture-communication-canvas.png), as background
 * [Template for draw.io](/downloads/ArchitectureCommunicationCanvas-empty.drawio), if you need to modify the canvas.
 * [Template for Miro® boards](/downloads/ArchitectureCommunicationCanvas.rtb), if you need to modify the canvas.
+* [PowerPoint®](/downloads/ArchitectureCommunicationCanvas-v2.pptx), if you prefer to use office tools.
 
 If you want to create your own version, just clone our [Github repository](https://github.com/arc42/canvas.arc42.org-site).

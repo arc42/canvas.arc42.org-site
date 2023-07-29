@@ -9,10 +9,19 @@ header:
 excerpt: "Answers to get you started..."
 ---
 
-## Do you prefer FlatWite or Cappuccino?
+>This page is currently under (heavy) construction. We have collected quite a pile of questions and answers, and are currently busy getting these onto this website... stay tuned.
+
+## Do you prefer Flat-White or Cappuccino?
 
 ## What is the relation of the canvas to arc42?
 
 ## How to use the PowerPoint® version?
 
+## How shall I create a canvas?
+
+## How do the different canvas types relate to each other?
+
+## What tool(s) shall I use?
+
+Try pen and paper first, electronic or digital tools later.
 

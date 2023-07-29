@@ -274,6 +274,7 @@ This section answers the question of how you evaluate the current situation in r
 - [Miro® template on Miroverse](https://miro.com/miroverse/architecture-inception-canvas/)
 - [PDF](/downloads/architecture-inception-canvas.pdf)
 - [PNG](/downloads/architecture-inception-canvas.png)
+- [PowerPoint®](/downloads/architecture-inception-canvas.pptx), if you prefer to use office tools.
 - [File template for Miro®](/downloads/architecture-inception-canvas.rtb)
 - [Template for Draw.io](/downloads/architecture-inception-canvas.drawio)
 

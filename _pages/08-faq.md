@@ -34,8 +34,10 @@ The [_Architecture Communication Canvas_](https://canvas.arc42.org/architecture-
 
 Both canvases are fully compatible with the [arc42 template](https://arc42.org/overview).
 
+
 ## What tool(s) shall I use?
 
-Try pen and paper first, electronic or digital tools later.
+1. Try pen and paper first, electronic or digital tools later.
+2. Try the most collaborative tool you have in your toolbox. We like tools like [Miro](https://miro.com), [ConceptBoard](https://conceptboard.com/), [Mural](https://www.mural.co/), [FigJam](https://www.figma.com/de/figjam/team-collaboration/) or [Jamboard](https://jamboard.google.com)
 
-
+Focus on content, not on tooling!

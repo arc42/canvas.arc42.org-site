@@ -19,6 +19,13 @@ excerpt: "Answers to get you started..."
 
 ## How shall I create a canvas?
 
+**With a group of people**<br>
+We found the canvas to be a highly effective _collaboration_ tool, sparkling mutual understanding in a group of people.
+
+* Therefore, get together with some people have a _stake_ in the system under consideration, some interest or motivation
+* With your tool of choice (see below, we prefer a huge sheet of paper) start brainstorming the different sections of the canvas.
+
+
 ## How do the different canvas types relate to each other?
 
 The [_Architecture Inception Canvas_](https://canvas.arc42.org/architecture-inception-canvas) provides an efficient and collaborative approach to defining your software architecture playground. It is an ideal tool for designing and conceptualising new systems from scratch, especially for new approaches to software development.

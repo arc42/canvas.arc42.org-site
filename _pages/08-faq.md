@@ -23,6 +23,24 @@ Additionally, the arc42 open source organization is maintaining, supporting and 
 
 ## How to use the PowerPoint® version?
 
+The pptx version of the canvas looks identical to other formats:
+
+![pptx version of acc](./images/../../images/pptx-usage/acc-pptx-version.png)
+figure: pptx-version of the Architecture Communication Canvas
+
+Using it is actually straightforward: Just click into the _yellowish_ rectangles and start typing, as shown below:
+
+![typing in the acc pptx version](./images/../../images/pptx-usage/pptx-edit-in-normal-mode.png)
+figure: typing in the pptx version
+
+>The downloadable version has two slides - one with _yellowish_ rectangles to type in, and a second with these rectangles in white (which makes them invisible...)
+
+All the rectangles, headers, icons are embedded into the slide master. In case you need to change these, you have to enter the "slide master" view, as shown next:
+
+![slide master view of pptx-version of acc](./images/../../images/pptx-usage/segments-and-titles-in-master.png)
+figure: (excerpt from) the slide-master
+
+
 ## How shall I create a canvas?
 
 **With a group of people**<br>

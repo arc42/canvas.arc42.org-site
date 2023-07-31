@@ -15,6 +15,12 @@ excerpt: "Answers to get you started..."
 
 ## What is the relation of the canvas to arc42?
 
+>Both AIC (architecture inception canvas) and ACC (architecture communication canvas) are perfectly compatible with the well-established arc42 template.
+
+Either of these canvas types can be a starting point for more extensive or elaborate documentation of an architecture.
+
+Additionally, the arc42 open source organization is maintaining, supporting and hosting these canvases.
+
 ## How to use the PowerPoint® version?
 
 ## How shall I create a canvas?

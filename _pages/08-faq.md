@@ -11,7 +11,9 @@ excerpt: "Answers to get you started..."
 
 >This page is currently under (heavy) construction. We have collected quite a pile of questions and answers, and are currently busy getting these onto this website... stay tuned.
 
-## Do you prefer Flat-White or Cappuccino?
+## Do you prefer Flat White or Cappuccino?
+Ben and Patrick usually drink Flat White whenever possible.
+Gernot prefers Cappuccino because it's not as strong (and allows him to drink more of it!).
 
 ## What is the relation of the canvas to arc42?
 

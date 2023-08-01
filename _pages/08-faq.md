@@ -66,3 +66,33 @@ Both canvases are fully compatible with the [arc42 template](https://arc42.org/o
 2. Try the most collaborative tool you have in your toolbox. We like tools like [Miro](https://miro.com), [ConceptBoard](https://conceptboard.com/), [Mural](https://www.mural.co/), [FigJam](https://www.figma.com/de/figjam/team-collaboration/) or [Jamboard](https://jamboard.google.com)
 
 Focus on content, not on tooling!
+
+## How do I integrate the canvas in my current arc42 document without doing it twice?
+
+
+## In practice, how often does a canvas need updating?
+
+## Is it useful to have multiple ACCs for really complex systems, for each subsystem and on each level?
+(per team and the more overarching architecture?)
+
+## How can I make relations/links between multiple canvases?
+
+## What tends to be the hardest section to write on the Architecture Communication Canvas?
+
+## Can I use the ACC to start a project, before I write an arc42 document? 
+
+## Should we revisit the canvas at the end of a delivery due to implementation-time changes?
+(business or technological changes)
+
+## How do we fill the section with good and bad decisions? When we make a decision, we do not know if it will turn out good or bad.
+
+## Can we use the ACC to document key components of larger systems?
+
+## How do your canvas and arc42 contradict or extend other models like TOGAF and Archimate?
+
+## Do you have ideas for how the canvas documents should be organised, to allow for a better discoverability?
+
+## Is there an automatic way to check if the doc is correct or outdated?
+
+
+

@@ -79,7 +79,9 @@ Focus on content, not on tooling!
 
 ## What tends to be the hardest section to write on the Architecture Communication Canvas?
 
-## Can I use the ACC to start a project, before I write an arc42 document? 
+## Can I use the ACC to start a project, before I write an arc42 document?
+
+If you're initiating a new software system, the [Architecture Inception Canvas](https://canvas.arc42.org/architecture-inception-canvas) is an ideal starting point for collaborating on defining your software architecture playground. It focuses heavily on the goals of a new software initiative. From this foundation, you can derive architectural hypotheses and identify technical challenges. With the results from these collaborative and iterative sessions, you can contribute the findings to the arc42 document. The Architecture Inception Canvas is fully compatible with the [arc42 template](https://arc42.org/overview).
 
 ## Should we revisit the canvas at the end of a delivery due to implementation-time changes?
 (business or technological changes)

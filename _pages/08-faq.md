@@ -17,10 +17,9 @@ Gernot prefers Cappuccino because it's not as strong (and allows him to drink mo
 
 ## What is the relation of the canvas to arc42?
 
->Both AIC (architecture inception canvas) and ACC (architecture communication canvas) are perfectly compatible with the well-established arc42 template.
+> Both AIC (architecture inception canvas) and ACC (architecture communication canvas) are perfectly compatible with the well-established arc42 template.
 
 Either of these canvas types can be a starting point for more extensive or elaborate documentation of an architecture.
-
 Additionally, the arc42 open source organization is maintaining, supporting and hosting these canvases.
 
 ## How to use the PowerPoint® version?
@@ -35,7 +34,7 @@ Using it is actually straightforward: Just click into the _yellowish_ rectangles
 ![typing in the acc pptx version](./images/../../images/pptx-usage/pptx-edit-in-normal-mode.png)
 figure: typing in the pptx version
 
->The downloadable version has two slides - one with _yellowish_ rectangles to type in, and a second with these rectangles in white (which makes them invisible...)
+> The downloadable version has two slides - one with _yellowish_ rectangles to type in, and a second with these rectangles in white (which makes them invisible...)
 
 All the rectangles, headers, icons are embedded into the slide master. In case you need to change these, you have to enter the "slide master" view, as shown next:
 
@@ -45,11 +44,11 @@ figure: (excerpt from) the slide-master
 
 ## How shall I create a canvas?
 
-**With a group of people**<br>
-We found the canvas to be a highly effective _collaboration_ tool, sparkling mutual understanding in a group of people.
+### With a group of people
+We found the canvas to be a highly effective _collaboration_ tool, sparking mutual understanding in a group of people.
 
-* Therefore, get together with some people have a _stake_ in the system under consideration, some interest or motivation
-* With your tool of choice (see below, we prefer a huge sheet of paper) start brainstorming the different sections of the canvas.
+* Therefore, get together with some people that have a _stake_ in the system under consideration, some interest or motivation
+* With your tool of choice (see below, we prefer a huge sheet of paper), start brainstorming the different sections of the canvas.
 
 
 ## How do the different canvas types relate to each other?

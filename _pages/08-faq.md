@@ -76,9 +76,10 @@ As the software architecture evolves, the canvas should also be updated.
 
 The Canvas is a technique to define and document the software architecture in an iterative and lean way.
 
-For example, if there new core decisions or risks are elaborated, these can be recorded in a new version of the Canvas.
+For example, as new core decisions are developed or new risks are identified, they can be captured in a new version of the Canvas.
 
 The [_Architecture Inception Canvas_](https://canvas.arc42.org/architecture-inception-canvas) and the [_Architecture Communication Canvas_](https://canvas.arc42.org/architecture-communication-canvas) have a date/iteration field in the upper right corner. It is therefore intended for continuous, collaborative software architecture work.
+
 
 ## Is it useful to have multiple ACCs for really complex systems, for each subsystem and on each level?
 (per team and the more overarching architecture?)

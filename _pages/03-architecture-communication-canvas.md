@@ -266,6 +266,7 @@ See the companion [Technology Stack Canvas](https://techstackcanvas.io/).
 * [png](/downloads/architecture-communication-canvas.png), as background for drawing tools
 * [Template for draw.io](/downloads/ArchitectureCommunicationCanvas-empty.drawio)
 * [Template for Miro® boards](/downloads/ArchitectureCommunicationCanvas.rtb)
+* Template for Mural® boards: search in Mural Templates for "arc42 Architecture Communication Canvas". [Read-only preview](https://app.mural.co/embed/9a2342bf-0c17-402e-bf2e-050c73fc8155)
 * [PowerPoint®](/downloads/ArchitectureCommunicationCanvas-v2.pptx)
 
 If you want to create your own version, just clone our [Github repository](https://github.com/arc42/canvas.arc42.org-site).

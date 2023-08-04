@@ -272,7 +272,7 @@ This section answers the question of how you evaluate the current situation in r
 ## Download
 
 - [Miro® template on Miroverse](https://miro.com/miroverse/architecture-inception-canvas/)
-- [Template for Mural® boards](https://app.mural.co/template/6957648a-5fd4-41a7-9b25-c47a3393793a/0bd7c7f5-e587-4a13-a00b-66bb47e04304)
+- [Mural® template](https://app.mural.co/template/6957648a-5fd4-41a7-9b25-c47a3393793a/0bd7c7f5-e587-4a13-a00b-66bb47e04304)
 - [PDF](/downloads/architecture-inception-canvas.pdf)
 - [PNG](/downloads/architecture-inception-canvas.png)
 - [PowerPoint®](/downloads/architecture-inception-canvas.pptx)

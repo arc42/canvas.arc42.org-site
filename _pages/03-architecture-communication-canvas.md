@@ -40,7 +40,7 @@ Click on an element to see a more detailed description, or just scroll down.
           Who is contributing?<br />
         </small>
       </div>
-      <i class="fa fa-people-group icon" aria-hidden="true"></i>
+      <i class="fa fa-user-friends icon" aria-hidden="true"></i>
     </div>
   </a>
 
@@ -95,7 +95,7 @@ Click on an element to see a more detailed description, or just scroll down.
         important subsystems, modules, services.
       </small>
     </div>
-      <i class="fa-solid fa-shapes icon" aria-hidden="true"></i>
+      <i class="fas fa-shapes icon" aria-hidden="true"></i>
   </div>
 </a>  
 
@@ -108,7 +108,7 @@ Click on an element to see a more detailed description, or just scroll down.
         Which decisions lead to the current state?
       </small>
     </div>
-      <i class="fa-solid fa-arrow-right-arrow-left fa-rotate-90 icon" aria-hidden="true"></i>
+      <i class="fas fa-arrows-alt-v icon" aria-hidden="true"></i>
   </div>
 </a>
   
@@ -121,7 +121,7 @@ Click on an element to see a more detailed description, or just scroll down.
         Important technologies used for development and operation.
       </small>
   </div>
-      <i class="fa-solid fa-screwdriver-wrench icon" aria-hidden="true"></i>
+      <i class="fas fa-tools icon" aria-hidden="true"></i>
   </div>
 </a>
   
@@ -135,7 +135,7 @@ Click on an element to see a more detailed description, or just scroll down.
         What is hindering the team from delivering better value faster?<br>
       </small>
     </div>
-      <i class="fa-solid fa-question icon" aria-hidden="true"></i>
+      <i class="fas fa-question icon" aria-hidden="true"></i>
   </div>
 </a>
 

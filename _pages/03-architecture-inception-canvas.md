@@ -87,7 +87,7 @@ Click on an element to see a more detailed description, or just scroll down.
           Separate your system under constructure as a black box from all its communication partners. Communication partners are neighbouring external systems and users.
         </small>
       </div>
-      <i class="fa fa-map-o icon" aria-hidden="true"></i>
+      <i class="far fa-map icon" aria-hidden="true"></i>
     </div>
   </a>
 

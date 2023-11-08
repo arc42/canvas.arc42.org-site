@@ -1,32 +1,46 @@
-/* special styles for Per Starke Web-Dev website */
+/* special styles for arc42 Canvas Website */
 
+.supported-by-innoq {
+    margin-bottom: 8px;
+    width: 110px;
+}
 
-/* define colors */
-:root {
-  --lightgrey-background: rgba(0, 0, 0, 0.15);
-  --darker-lightgrey-background: rgba(0, 0, 0, 0.8);
+.supported-by-innoq:hover {
+    opacity: 0.8;
 }
 
 
-div.references_bright{
-    background-color: var(--lightgrey-background);
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+@media (max-width: 900px) {
+    .supported-by-innoq {
+        width: 100px;
+    }
 }
 
-div.references_dark{
-    background-color: var(--darker-lightgrey-background);
-    color: rgba(220, 220, 220);
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+@media (max-width: 600px) {
+    .supported-by-innoq {
+        width: 90px;
+    }
 }
 
-hr.big-sep {
-    border-top: 5px dashed grey
+
+
+.footer-center {
+    text-align: center;
+    font-size: 80%;
 }
 
-small.price {
-    color: grey
+.copyright-size {
+    font-size: 60% !important;
+}
+
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .mobile {
+    display: block;
+
+  }
 }

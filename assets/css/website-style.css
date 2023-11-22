@@ -49,3 +49,20 @@
 .btn-canvas {
     margin-left: 5px;
 }
+
+
+.decision-box {
+    border: 2px solid transparent;
+    border-radius: 4px;
+}
+
+.good-decisions {
+    border-color: green;
+    background-color: rgba(0,255,0,0.075);
+}
+
+.bad-decisions {
+    border-color: red;
+    background-color: rgba(255,0,0,0.075);
+    margin-top: 10px;
+}

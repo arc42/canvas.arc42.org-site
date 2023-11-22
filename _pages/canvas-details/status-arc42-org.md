@@ -4,6 +4,7 @@ layout: splash
 permalink: /canvas-details/acc-status-arc42-org
 header:
     overlay_image: /examples/acc-status-arc42-org.webp
+    overlay_filter: rgba(0, 0, 0, 0.6)
 ---
 
 ![architecture communication canvas for RecipeRecommender](/examples/acc-status-arc42-org.webp)

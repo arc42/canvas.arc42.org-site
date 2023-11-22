@@ -24,16 +24,16 @@ gallery:
   - url: /examples/aic-techradar-1920px.webp
     image_path: /examples/aic-techradar-400px.webp
     alt: "architecture inception canvas for tech radar"
-    title: "Tech Radar as a Service"    
+    title: "Tech Radar as a Service"
   - url: /examples/acc-RecipeRecommender-1920px.webp
     image_path: /examples/acc-RecipeRecommender-400px.webp
     alt: "architecture communication canvas for RecipeRecommender"
     title: "RecipeRecommender, from the Bachelor Thesis of Per Starke"
-
+    btn-link: /canvas-details/acc-recipe-recommender
   
 ---
 
-{% include gallery caption="A few examples - click for enlarged version." %}
+{% include gallery_examples caption="A few examples - click for enlarged version." %}
 
 To view the originals, use the following links:
 

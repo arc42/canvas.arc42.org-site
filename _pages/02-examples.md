@@ -30,6 +30,11 @@ gallery:
     alt: "architecture communication canvas for RecipeRecommender"
     title: "RecipeRecommender, from the Bachelor Thesis of Per Starke"
     btn-link: /canvas-details/acc-recipe-recommender
+  - url: /examples/acc-status-arc42-org.webp
+    image_path: /examples/acc-status-arc42-org-400px.webp
+    alt: "architecture communication canvas for RecipeRecommender"
+    title: "status.arc42.org Website"
+    btn-link: /canvas-details/acc-status-arc42-org
   
 ---
 

@@ -35,13 +35,22 @@ gallery:
     alt: "architecture communication canvas for RecipeRecommender"
     title: "status.arc42.org Website"
     btn-link: /canvas-details/acc-status-arc42-org
-  
+  - url: /examples/acc-dancier.webp
+    image_path: /examples/acc-dancier-400px.webp
+    alt: "Dancier: Connecting Dancers"
+    title: "Dancier: Connecting Dancers"
+    btn-link: https://project.dancier.net/documentation/arc42/arc42-canvas.html
+  - url: /examples/acc-geocaching-kata.webp
+    image_path: /examples/acc-geocaching-kata-400px.webp
+    alt: "Architecture Kata on Geocaching"
+    title: "Architecture Kata on Geocaching"
+      
 ---
 
 {% include gallery_examples caption="A few examples - click for enlarged version." %}
 
 To view the originals, use the following links:
 
-* HtmlSanityCheck: [Miro (read-only)](https://miro.com/app/board/uXjVM4u3fzg=/?share_link_id=696859326536)
-* MaMa: [Miro (read-only)](https://miro.com/app/board/uXjVM7oIZJU=/?share_link_id=608410448102)
-* Tech Radar: [Miro (read-only)](https://miro.com/app/board/uXjVM2qGGX0=/?share_link_id=435103217384)
+* **Dancier**, contributed by [Marc Gorzala](https://project.dancier.net/)
+* **HtmlSanityCheck**: [Miro (read-only)](https://miro.com/app/board/uXjVM4u3fzg=/?share_link_id=696859326536)
+* **MaMa**: [Miro (read-only)](https://miro.com/app/board/uXjVM7oIZJU=/?share_link_id=608410448102)

@@ -42,7 +42,7 @@ A canvas provides a structured framework that facilitates the visualization of k
 Based upon ideas from the famous [Business Model Canvas](https://www.strategyzer.com) we created three different canvases
 to suit your current needs:
 
-- The "Architecture Inception Canvas" is based upon Patrick Roos' original work "Software Architecture Canvas", and adresses greenfield approaches to software development. Additional info [here](/architecture-inception-canvas).
+- The "Architecture Inception Canvas" is based upon Patrick Roos' original work "Software Architecture Canvas", and addresses greenfield approaches to software development. Additional info [here](/architecture-inception-canvas).
 - The "Architecture Communication Canvas" helps to communicate key elements of existing software architectures. Consider it to be the _zip-version_ of conventional arc42 documentation. Addition info [here](/architecture-communication-canvas).
 - Finally, the [tech stack canvas](https://techstackcanvas.io) is a new approach by [INNOQ](https://innoq.com) to have all relevant technologies of your stack documented on a single page. Document the planned technologies for a new project but also document the status quo of existing products. Highly recommended!
 

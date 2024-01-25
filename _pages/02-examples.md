@@ -6,7 +6,11 @@ header:
   overlay_image: /images/splash/webdev.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   overlay_filter: rgba(0, 0, 0, 0.6)
-excerpt: "**Canvas in Action**"
+  actions:
+    - label: "Download our Canvasses"
+      url: "/downloads"
+
+excerpt: "**Canvas in Action**"  
 
 gallery:
   - url: /examples/acc-4-htmlSanityCheck.png.webp
@@ -54,3 +58,4 @@ To view the originals, use the following links:
 * **Dancier**, contributed by [Marc Gorzala](https://project.dancier.net/)
 * **HtmlSanityCheck**: [Miro (read-only)](https://miro.com/app/board/uXjVM4u3fzg=/?share_link_id=696859326536)
 * **MaMa**: [Miro (read-only)](https://miro.com/app/board/uXjVM7oIZJU=/?share_link_id=608410448102)
+  

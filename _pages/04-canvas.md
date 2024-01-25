@@ -5,6 +5,9 @@ permalink: /canvas
 header:
   overlay_image: /images/splash/canvas-splash.webp
   caption: "Photo credit: **DALL.E** and Gernot Starke"
+  actions:
+    - label: "Download our Canvasses"
+      url: "/downloads"
 excerpt: "**...structured frameworks to facilitate understanding**"
 ---
 

@@ -66,3 +66,11 @@
     background-color: rgba(255,0,0,0.075);
     margin-top: 10px;
 }
+
+.black-link {
+    color: black !important;
+}
+
+.black-link:hover {
+    opacity: 0.7;
+}

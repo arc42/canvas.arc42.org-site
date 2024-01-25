@@ -3,9 +3,10 @@ title: Download Canvasses
 layout: splash
 permalink: /downloads
 header:
-  overlay_image: /images/splash/acc-splash.webp
+  overlay_image: /images/splash/home-splash.webp
+  caption: "Background photo credit: [**Samantha Gades**](https://unsplash.com/de/@srosinger3997)"
   overlay_filter: rgba(0, 0, 0, 0.6)
-excerpt: "**The shortest possible description of your architecture**"
+excerpt: "**Download the AIC and ACC**"
 ---
 
 

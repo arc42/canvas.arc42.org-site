@@ -7,7 +7,7 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   overlay_filter: rgba(0, 0, 0, 0.6)
   actions:
-    - label: "Download our Canvasses"
+    - label: "Download our Canvas"
       url: "/downloads"
 
 excerpt: "**Canvas in Action**"  

@@ -69,7 +69,7 @@ to suit your current needs:
 
           
             <p><a href="/canvas" class="btn btn--primary">read more...</a>
-            <a href="/downloads" class="btn btn--primary">Download Canvasses</a></p>
+            <a href="/downloads" class="btn btn--primary">Download Canvas</a></p>
           
         </div>
       </div>

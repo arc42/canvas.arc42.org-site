@@ -1,5 +1,5 @@
 ---
-title: Download Canvasses
+title: Download Canvas
 layout: splash
 permalink: /downloads
 header:

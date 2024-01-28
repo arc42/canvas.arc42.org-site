@@ -271,4 +271,4 @@ This section answers the question of how you evaluate the current situation in r
 
 ## Download
 
-Visit the [downloads-page](/downloads/#architecture-inception-canvas-aic) for downloading the AIC Canvas.
+Visit the [downloads-page](/downloads#architecture-inception-canvas-aic) for downloading the AIC Canvas.

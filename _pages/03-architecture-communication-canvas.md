@@ -262,4 +262,4 @@ See the companion [Technology Stack Canvas](https://techstackcanvas.io/).
 
 ## Download
 
-Visit the [downloads-page](/downloads/#architecture-communication-canvas-acc) for downloading the ACC Canvas.
+Visit the [downloads-page](/downloads#architecture-communication-canvas-acc) for downloading the ACC Canvas.

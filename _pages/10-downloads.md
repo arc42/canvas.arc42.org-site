@@ -18,6 +18,7 @@ excerpt: "**Download the AIC and ACC**"
   <li><a href="/downloads/ArchitectureCommunicationCanvas-empty.drawio">draw.io Template</a></li>
   <li><a href="https://miro.com/miroverse/architecture-communication-canvas/">Miro® template on Miroverse</a> (<a href="/downloads/Architecture Communication Canvas.rtb">Direct download *.rtb</a>)</li>
   <li><a href="https://app.mural.co/template/5a5692e4-35e0-4a8e-8f1a-52601d2606cd/07a79dde-bfca-4ffc-b6cf-3ecb5315774b">Mural® Template</a></li>
+  <li><a href="https://robinpokorny.notion.site/Architecture-Communication-Canvas-ACC-d4e524ae23db42c2a3ebad836b06d85c">Notion® Template</a></li>
   <li><a href="/downloads/ArchitectureCommunicationCanvas-v2.pptx">PowerPoint®</a></li>
 </ul>
 

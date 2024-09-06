@@ -86,7 +86,7 @@ to suit your current needs:
 
           
             <div class="archive__item-excerpt">
-              <p><img src="/images/home/aic-regions.png" alt="" /><br /> Architecture Inception Canvas.<br /> Perfect for creating and envisioning new systems from scratch.</p>
+              <p>  <a href='/architecture-inception-canvas'><img src='/images/home/aic-regions.png' alt=''></a><br /> Architecture Inception Canvas.<br /> Perfect for creating and envisioning new systems from scratch.</p>
 
             </div>
           
@@ -109,7 +109,8 @@ to suit your current needs:
 
           
             <div class="archive__item-excerpt">
-              <p><img src="/images/home/acc-regions-300px.png" alt="" /><br /> Communicating existing architectures.<br /> The <em>elevator pitch</em> of software architecture, providing the most compact way of explaining and communicating your system.</p>
+
+              <p><a href='/architecture-communication-canvas'><img src='/images/home/acc-regions-300px.png' alt=''></a><br /> Communicating existing architectures.<br /> The <em>elevator pitch</em> of software architecture, providing the most compact way of explaining and communicating your system.</p>
 
             </div>
           

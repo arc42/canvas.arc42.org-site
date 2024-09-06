@@ -177,6 +177,8 @@ Answer at least on of the following questions:
 * Why is the system build and operated?
 * What is its core responsibility?
 
+<a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
+
 <a id="stakeholder"/>
 ### Key Stakeholder
 
@@ -188,6 +190,8 @@ Identify the most important stakeholders of the system:
 * Who are our most important customers?
 * Who are our most important contributors?
 
+<a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
+
 <a id="functions"/>
 ### Core Functions
 
@@ -197,12 +201,16 @@ Identify the most important stakeholders of the system:
 * Which of the functions generates high value for stakeholders?
 * Which functions are risky, dangerous or critical?
 
+<a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
+
 <a id="quality"/>
 ### Quality Requirements
 
 What are the important quality goals and requirements, like speed, scalability, reliability, usability, security, safety, capacity or similar.
 
 See the companion [site on quality](https://quality.arc42.org), where you find detailed descriptions of more than 130 quality attributes, plus numerous examples of specific quality requirements.
+
+<a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
 
 <a id="context"/>
 ### Business Context
@@ -216,6 +224,7 @@ Which external systems, interfaces or neighbouring systems...
 * have high operational cost (e.g. pay-per-use)?
 * are difficult to implement, operate or monitor?
 
+<a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
 
 <a id="decisions"/>
 ### Core Decisions - Good or Bad
@@ -227,12 +236,15 @@ Which decisions...
 * turned out to be dubious, wrong or painful?
 * can't you understand from todays' perspective?
 
+<a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
+
 <a id="components"/>
 ### Components / Modules
 
 What are the major building blocks of the system
 (e.g. modules, subsystems, packages, components, services)?
 
+<a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
 
 <a id="technology"/>
 ### Technologies
@@ -249,6 +261,8 @@ For example:
 
 See the companion [Technology Stack Canvas](https://techstackcanvas.io/).
 
+<a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
+
 <a id="risks"/>
 ### Risks and Missing Information
 
@@ -259,6 +273,7 @@ See the companion [Technology Stack Canvas](https://techstackcanvas.io/).
 * What would you like to know about the system, but cannot currently find out?
 * What is hindering the team from delivering better value faster?
 
+<a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
 
 ## Download
 

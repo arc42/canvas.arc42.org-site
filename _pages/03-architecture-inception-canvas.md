@@ -199,6 +199,8 @@ With this section of the Architecture Inception Canvas, you put the entrepreneur
 
 This promotes the intrinsic motivation of each team member and helps in the daily macro and micro decision making in the realisation of the software product.
 
+<a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
+
 ### Functional Overview: This is your product box
 
 As you work out the functional overview of the software initiative as a product team, imagine a product box of your software - what is on your software box?
@@ -212,6 +214,8 @@ Think the product box to get the answers to the following questions:
 
 With the answers to these questions, you can describe the key functional requirements at a high level.
 
+<a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
+
 ### Quality Goals: The key drivers of architecture
 
 Here you work out the three most important quality goals of the stakeholders for the software system.
@@ -219,6 +223,8 @@ Here you work out the three most important quality goals of the stakeholders for
 It's important that these quality goals are known by every team member because they shape your architecture.
 
 The standard [ISO/IEC 25010](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010) provides an overview of possible quality attributes of interest, the modern arc42 [quality model (Q42)](https://quality.arc42.org) collects more than 130 quality attributes with extensive explanation and examples.
+
+<a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
 
 ### Business Context: Explore the context and get the scope
 
@@ -233,6 +239,8 @@ When trying to work out the business context, try to identify the users of your 
 In this part, you're to create a business-oriented context view to get a common view of the business scope of the system. So focus on a common understanding and use this part to develop a tool to communicate the system context to other stakeholders inside and outside the team.
 
 This business-oriented scope is the basis for a later technical context. Here you elaborate the center of your software architecture activities.
+
+<a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
 
 ### Organisational and Technical Constraints: Your limitation of freedom
 
@@ -250,6 +258,8 @@ In larger enterprises, there are often a lot of technical constraints. There is 
 
 For example, if you decide to build a single-page application, the overarching architecture committee will set Angular as the SPA framework, so there are expertise synergies between teams.
 
+<a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
+
 ### Architectural Hypotheses: Create your first high-level architectural hypotheses based on your current knowledge
 
 Congratulations - you've created your architectural playground.
@@ -260,6 +270,8 @@ Now you can create your first architectural hypotheses based on your current tea
 
 Ideally, you can turn your architectural assumptions into draft architecture decision records.
 
+<a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
+
 ### Challenges and Risks: What are the upcoming challenges and the resulting risks?
 
 Based on the playground you have created, such as business context and scope, quality goals and constraints, you can capture the upcoming challenges and the resulting risks.
@@ -268,6 +280,7 @@ It's very important to work this out, evaluate it continuously, and communicate 
 
 This section answers the question of how you evaluate the current situation in relation to the elaborated architectural playground.
 
+<a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
 
 ## Download
 

@@ -14,7 +14,7 @@ excerpt: "**Download the AIC and ACC**"
 
 <ul>
   <li><a href="/downloads/architecture-communication-canvas.pdf">PDF</a>, e.g. for on-site workshops</li>
-  <li><a href="/downloads/architecture-communication-canvas.png" onclick="downloadFile()">Download PNG</a>, as background for drawing tools</li>
+  <li><a href="/downloads/architecture-communication-canvas.png" onclick="downloadFile('architecture-communication-canvas.png')">Download PNG</a>, as background for drawing tools</li>
   <li><a href="/downloads/ArchitectureCommunicationCanvas-empty.drawio">draw.io Template</a></li>
   <li><a href="https://miro.com/miroverse/architecture-communication-canvas/">Miro® template on Miroverse</a> (<a href="/downloads/Architecture Communication Canvas.rtb">Direct download *.rtb</a>)</li>
   <li><a href="https://app.mural.co/template/5a5692e4-35e0-4a8e-8f1a-52601d2606cd/07a79dde-bfca-4ffc-b6cf-3ecb5315774b">Mural® Template</a></li>
@@ -28,7 +28,7 @@ excerpt: "**Download the AIC and ACC**"
   <li><a href="https://miro.com/miroverse/architecture-inception-canvas/">Miro® template on Miroverse</a></li>
   <li><a href="https://app.mural.co/template/6957648a-5fd4-41a7-9b25-c47a3393793a/0bd7c7f5-e587-4a13-a00b-66bb47e04304">Mural® template</a></li>
   <li><a href="/downloads/architecture-inception-canvas.pdf">PDF</a></li>
-  <li><a href="/downloads/architecture-inception-canvas.png" onclick="downloadFile()">PNG</a></li>
+  <li><a href="/downloads/architecture-inception-canvas.png" onclick="downloadFile('architecture-inception-canvas.png')">PNG</a></li>
   <li><a href="/downloads/architecture-inception-canvas.pptx">PowerPoint®</a></li>
   <li><a href="/downloads/architecture-inception-canvas.rtb">File template for Miro®</a></li>
   <li><a href="/downloads/architecture-inception-canvas.drawio">Template for Draw.io</a></li>
@@ -61,10 +61,10 @@ If you want to create your own version, just clone our [Github repository](https
 <!-- Needed because Minimal Mistakes does not make downloading PNGs possible -->
 
 <script>
-function downloadFile() {
+function downloadFile(file) {
   var link = document.createElement('a');
-  link.href = "/downloads/architecture-communication-canvas.png";
-  link.download = "architecture-communication-canvas.png";
+  link.href = `/downloads/${file}`;
+  link.download = file;
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);

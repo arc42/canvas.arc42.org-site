@@ -29,6 +29,7 @@ gallery:
     image_path: /examples/aic-techradar-400px.webp
     alt: "architecture inception canvas for tech radar"
     title: "Tech Radar as a Service"
+    btn-link: https://www.workingsoftware.dev/software-architecture-canvas-example-1-tech-radar/
   - url: /examples/acc-RecipeRecommender-1920px.webp
     image_path: /examples/acc-RecipeRecommender-400px.webp
     alt: "architecture communication canvas for RecipeRecommender"

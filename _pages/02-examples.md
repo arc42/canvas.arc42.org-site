@@ -48,7 +48,10 @@ gallery:
     image_path: /examples/acc-geocaching-kata-400px.webp
     alt: "Architecture Kata on Geocaching"
     title: "Architecture Kata on Geocaching"
-      
+  - url: /examples/aic-ecommerce-1920px.webp
+    image_path: /examples/aic-ecommerce-400px.webp
+    alt: "Architecture Kata on Geocaching"
+    title: "Architecture Kata on Geocaching"      
 ---
 
 {% include gallery_examples caption="A few examples - click for enlarged version." %}

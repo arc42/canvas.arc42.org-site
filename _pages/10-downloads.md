@@ -20,6 +20,7 @@ excerpt: "**Download the AIC and ACC**"
   <li><a href="https://app.mural.co/template/5a5692e4-35e0-4a8e-8f1a-52601d2606cd/07a79dde-bfca-4ffc-b6cf-3ecb5315774b">Mural® Template</a></li>
   <li><a href="https://robinpokorny.notion.site/Architecture-Communication-Canvas-ACC-d4e524ae23db42c2a3ebad836b06d85c">Notion® Template</a></li>
   <li><a href="/downloads/ArchitectureCommunicationCanvas-v2.pptx">PowerPoint®</a></li>
+  <li><a href="/downloads/architecture-communication-canvas-markdown/README">Markdown, HTML & Mermaid.js</a></li>
 </ul>
 
 <h2 id="architecture-inception-canvas-aic"><a class="black-link" href="/architecture-inception-canvas">Architecture Inception Canvas (AIC)</a></h2>

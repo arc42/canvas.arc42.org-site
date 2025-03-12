@@ -63,7 +63,32 @@ Pragmatic. Experienced trainer for software architecture, co-founder of the iSAQ
 </div>
 
 ### Benjamin Wolf
-INNOQ Senior Consultant, arc42 user and contributor, iSAQB Co-chair.
+INNOQ senior consultant, coffee consultant, arc42 user and contributor, iSAQB Co-chair, co-inventor of the Architecture Communication Canvas.
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+
+      <li>
+        <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i>
+        <a href="https://www.linkedin.com/in/benjaminwolf1985/">LinkedIn</a>
+      </li>
+
+      <li>
+        <i class="fas fa-globe" aria-hidden="true"></i> 
+        <a href="https://innoq.com/en/staff/benjamin-wolf">Profile on INNOQ.com</a>
+      </li>
+      
+      <li>
+        <i class="fab fa-fw fa-github" aria-hidden="true"></i>
+        <a href="https://github.com/programming-wolf">GitHub</a>
+      </li>
+
+      <li>
+        <i class="fab fa-fw fa-mastodon" aria-hidden="true"></i>
+        <a href="https://innoq.social/@benwolf">Mastodon</a>
+      </li>
+  </ul>
+</div>
 
 
 ### Supporter

@@ -85,7 +85,7 @@ INNOQ senior consultant, coffee consultant, arc42 user and contributor, iSAQB Co
 
       <li>
         <i class="fab fa-fw fa-mastodon" aria-hidden="true"></i>
-        <a href="https://innoq.social/@benwolf">Mastodon</a>
+        <a href="https://innoq.social/@ben">Mastodon</a>
       </li>
   </ul>
 </div>

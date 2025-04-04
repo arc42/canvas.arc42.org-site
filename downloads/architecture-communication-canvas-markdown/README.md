@@ -25,7 +25,7 @@ hide_title: true
 >
 
 # Template
-*System: ... | Created by: ... | Date/Iteartion: ... |*
+*System: ... | Created by: ... | Date/Iteration: ... |*
 
 ## Value Proposition 💼
 *Major objectives.<br>What value does the system deliver?<br>What are the major business goals?*
@@ -91,7 +91,7 @@ Who are our most important contributors?*
 >```
 > Hint: Mermaid charts are supported by GitHub
 >
-*System: ... | Created by: ... | Date/Iteartion: ... |*
+*System: ... | Created by: ... | Date/Iteration: ... |*
 
 ## Value Proposition 💼
 *Major objectives.<br>What value does the system deliver?<br>What are the major business goals?*

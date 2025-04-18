@@ -49,10 +49,10 @@ gallery:
     image_path: /examples/acc-geocaching-kata-400px.webp
     alt: "Architecture Kata on Geocaching"
     title: "Architecture Kata on Geocaching"
-  - url: /examples/aic-ecommerce-1920px.webp
-    image_path: /examples/aic-ecommerce-400px.webp
-    alt: "Architecture Kata on Geocaching"
-    title: "Architecture Kata on Geocaching"      
+  - url: /examples/aic-sellify-1920px.webp
+    image_path: /examples/aic-sellify-400px.webp
+    alt: "architecture inception canvas for e-commerce platform Sellify"
+    title: "Sellify an extension of the existing e-commerce system"      
 ---
 
 {% include gallery_examples caption="A few examples - click for enlarged version." %}

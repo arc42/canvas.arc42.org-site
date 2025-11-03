@@ -1,0 +1,166 @@
+<style>
+    .canvas-arch {
+        --green:#98e6b3;     /* Goals */
+        --blue:#a6d8f5;      /* Solution */
+        --red:#f7b5b5;       /* Assessment/Risks */
+        --text: #020202;
+        --shadow:0 6px 16px rgba(0,0,0,.12);
+        --radius:14px;
+        max-width:1200px;
+        margin:0 auto;
+        font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+        color:var(--text);
+    }
+    .grid-arch{
+        display:grid;
+        grid-template-columns:1fr 1.2fr 1.2fr 1fr;
+        grid-template-areas:
+      "vp      core     decisions tech"
+      "stake   quality  decisions tech"
+      "context context  comps     comps"
+      "risks   risks    risks     risks";
+        gap:18px;
+    }
+    .card{
+        border-radius:var(--radius);
+        box-shadow:var(--shadow);
+        padding:18px 20px;
+        background:#fff;
+        transition: box-shadow 0.2s, transform 0.2s;
+        cursor: pointer;
+    }
+    .card:hover{
+        box-shadow:0 12px 32px rgba(0,0,0,.28); 
+        transform: translateY(-6px) scale(1.03);
+        z-index:2;
+    }
+    .g{ background:var(--green); }
+    .b{ background:var(--blue);  }
+    .r{ background:var(--red);   }
+
+    .card h3{ margin:0 0 6px 0; font-size:16px; line-height:1.2; color: #000; }
+    .card p{ margin:0; opacity:.95; font-size:13px; }
+
+    /* placement */
+    .vp{grid-area:vp;}
+    .core{grid-area:core;}
+    .decisions{grid-area:decisions;}
+    .tech{grid-area:tech;}
+    .stake{grid-area:stake;}
+    .quality{grid-area:quality;}
+    .context{grid-area:context;}
+    .comps{grid-area:comps;}
+    .risks{grid-area:risks;}
+
+    /* responsive */
+    @media (max-width: 980px){
+        .grid-arch{
+            grid-template-columns:1fr 1fr;
+            grid-template-areas:
+        "vp vp"
+        "core decisions"
+        "tech decisions"
+        "stake quality"
+        "context context"
+        "comps comps"
+        "risks risks";
+        }
+    }
+    @media (max-width: 600px){
+        .grid-arch{
+            grid-template-columns:1fr;
+            grid-template-areas:
+        "vp"
+        "core"
+        "decisions"
+        "tech"
+        "stake"
+        "quality"
+        "context"
+        "comps"
+        "risks";
+        }
+    }
+
+    .legend-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 13px;
+    }
+
+    .legend-color {
+        width: 16px;
+        height: 16px;
+        border-radius: 4px;
+        display: inline-block;
+    }
+
+    .req { background-color: #98e6b3; }   
+    .sol { background-color: #a6d8f5; }  
+    .ris { background-color: #f7b5b5; }   
+</style>
+
+<div class="canvas-arch">
+    <div class="grid-arch">
+
+        <section class="card g vp" onclick="location.href='001_value_proposition.html'">
+            <h3>Value Proposition</h3>
+            <p>What is the core business case or economic driver?</p>
+        </section>
+
+        <section class="card g core" onclick="location.href='002_core_functions.html'">
+            <h3>Core Functions</h3>
+            <p>Most important functions &amp; supported processes.</p>
+        </section>
+
+        <section class="card b decisions" onclick="location.href='003_core_decisions.html'">
+            <h3>Core Decisions - Good or Bad</h3>
+            <p>Which decisions led to the current state?</p>
+        </section>
+
+        <section class="card b tech" onclick="location.href='004_technologies.html'">
+            <h3>Technologies</h3>
+            <p>Important technologies used for development and operation.</p>
+        </section>
+
+        <section class="card g stake" onclick="location.href='005_key_stakeholder.html'">
+            <h3>Key Stakeholder</h3>
+            <p>For whom are we creating value? Customers, payers, contributors.</p>
+        </section>
+
+        <section class="card g quality" onclick="location.href='006_quality_requirements.html'">
+            <h3>Quality Requirements</h3>
+            <p>Speed, scalability, reliability, usability, security, safety, capacity, flexibility.</p>
+        </section>
+
+        <section class="card g context" onclick="location.href='007_business_context.html'">
+            <h3>Business Context</h3>
+            <p>Important external interfaces or neighbouring systems, including key actors or roles.</p>
+        </section>
+
+        <section class="card b comps" onclick="location.href='008_components_modules.html'">
+            <h3>Components/Modules</h3>
+            <p>Major building blocks of the system: subsystems, modules, services.</p>
+        </section>
+
+        <section class="card r risks" onclick="location.href='009_risks_missing_info.html'">
+            <h3>Risks and Missing Information</h3>
+            <p>Potential problems and risks. What information is missing or blocking faster value delivery?</p>
+        </section>
+
+    </div>
+    <br>
+        <div class="legend-item">
+            <span class="legend-color req"></span>
+            Requirements: What should the system do?
+        </div>
+        <div class="legend-item">
+            <span class="legend-color sol"></span>
+            Solution: How is it done? How does it work?
+        </div>
+        <div class="legend-item">
+            <span class="legend-color ris"></span>
+            What are known problems and risks?
+        </div>
+</div>

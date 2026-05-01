@@ -21,6 +21,7 @@ excerpt: "**Download the AIC and ACC**"
   <li><a href="https://robinpokorny.notion.site/Architecture-Communication-Canvas-ACC-d4e524ae23db42c2a3ebad836b06d85c">Notion® Template</a></li>
   <li><a href="/downloads/ArchitectureCommunicationCanvas-v2.pptx">PowerPoint®</a></li>
   <li><a href="/downloads/architecture-communication-canvas-markdown.zip">Markdown & Mermaid.js</a></li>
+  <li><a href="https://github.com/tpo42/canvas-latex-template/releases">LaTeX Template</a></li>
 </ul>
 
 <h2 id="architecture-inception-canvas-aic"><a class="black-link" href="/architecture-inception-canvas">Architecture Inception Canvas (AIC)</a></h2>
@@ -33,6 +34,7 @@ excerpt: "**Download the AIC and ACC**"
   <li><a href="/downloads/architecture-inception-canvas.pptx">PowerPoint®</a></li>
   <li><a href="/downloads/architecture-inception-canvas.rtb">File template for Miro®</a></li>
   <li><a href="/downloads/architecture-inception-canvas.drawio">Template for Draw.io</a></li>
+  <li><a href="https://github.com/tpo42/canvas-latex-template/releases">LaTeX Template</a></li>
 </ul>
 
 #### arc42 compatibility

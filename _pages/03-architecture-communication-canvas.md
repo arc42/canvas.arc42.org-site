@@ -169,7 +169,7 @@ Click on an element to see a more detailed description, or just scroll down.
 <a id="value"/>
 ### Value Proposition
 
-Answer at least on of the following questions:
+Answer at least one of the following questions:
 
 * What are the systems' major objectives?
 * What value does the system deliver to the customer?

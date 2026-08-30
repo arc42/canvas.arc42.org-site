@@ -17,7 +17,14 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
-  <meta name="msapplication-TileColor" content="#da532c">
+  {%- comment -%}
+    Browser chrome follows the masthead fill, which is white since canvas
+    retired its amber band on 2026-08-29 and stopped claiming a signature hue
+    (meta.arc42.org/wiki/concepts/brand.md, canvas row).
+    These are the LAST theme-color/tile metas in the head, so they are the ones
+    that win; don't add a second pair in head/custom.html.
+  {%- endcomment -%}
+  <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
 </head>
 

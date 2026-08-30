@@ -10,5 +10,10 @@ main:
     url: /examples
   - title: "FAQ"
     url: /faq
-  - title: "Contributors"
-    url: /contributors
+  # Downloads is the site's conversion goal, so it sits last in the nav (the
+  # eye's second stop after the wordmark) and carries `class: nav-cta`, which
+  # _includes/masthead.html renders onto the anchor. Contributors moved to the
+  # footer row -- it is credit, not a task a visitor comes here to do.
+  - title: "Downloads"
+    url: /downloads
+    class: nav-cta

@@ -166,7 +166,7 @@ Click on an element to see a more detailed description, or just scroll down.
 </div>
 
 
-<a id="value"/>
+<span id="value"></span>
 ### Value Proposition
 
 Answer at least one of the following questions:
@@ -179,7 +179,7 @@ Answer at least one of the following questions:
 
 <a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
 
-<a id="stakeholder"/>
+<span id="stakeholder"></span>
 ### Key Stakeholder
 
 Identify the most important stakeholders of the system:
@@ -192,7 +192,7 @@ Identify the most important stakeholders of the system:
 
 <a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
 
-<a id="functions"/>
+<span id="functions"></span>
 ### Core Functions
 
 * What are the most important functions, features or use-cases of the system?
@@ -203,7 +203,7 @@ Identify the most important stakeholders of the system:
 
 <a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
 
-<a id="quality"/>
+<span id="quality"></span>
 ### Quality Requirements
 
 What are the important quality goals and requirements, like speed, scalability, reliability, usability, security, safety, capacity or similar.
@@ -212,7 +212,7 @@ See the companion [site on quality](https://quality.arc42.org), where you find d
 
 <a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
 
-<a id="context"/>
+<span id="context"></span>
 ### Business Context
 
 Which external systems, interfaces or neighbouring systems...
@@ -226,7 +226,7 @@ Which external systems, interfaces or neighbouring systems...
 
 <a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
 
-<a id="decisions"/>
+<span id="decisions"></span>
 ### Core Decisions - Good or Bad
 
 Which decisions... 
@@ -238,7 +238,7 @@ Which decisions...
 
 <a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
 
-<a id="components"/>
+<span id="components"></span>
 ### Components / Modules
 
 What are the major building blocks of the system
@@ -246,7 +246,7 @@ What are the major building blocks of the system
 
 <a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
 
-<a id="technology"/>
+<span id="technology"></span>
 ### Technologies
 
 What are the most important technologies used for development and operation of the system?
@@ -263,7 +263,7 @@ See the companion [Technology Stack Canvas](https://techstackcanvas.io/).
 
 <a href="#" class="btn btn--primary btn-subtle">Back to Top &#8593;</a>
 
-<a id="risks"/>
+<span id="risks"></span>
 ### Risks and Missing Information
 
 * What are known problems?

@@ -1,7 +1,137 @@
 /* special styles for arc42 Canvas Website */
 
+/* --------------------------------------------------------------------------
+   Masthead. canvas no longer claims a signature hue: the amber band #ffc95c
+   was retired on 2026-08-29 (see the canvas row in
+   meta.arc42.org/wiki/concepts/brand.md). The masthead is plain white and the
+   theme's hairline -- not a colour edge -- is what separates it from the page,
+   which is why the `border-bottom: 0` override that used to live here is gone.
+
+   The wordmark is images/arc42-logo-black.svg, copied verbatim from the
+   canonical ARC42_black.svg in meta.arc42.org/wiki/assets/logos (identical to
+   arc42.org-site/assets/ARC42_black.svg). Do not hand-edit a local variant:
+   the previous one carried a provenance comment containing a double hyphen,
+   which is illegal inside an XML comment, and browsers rejected the whole file
+   as malformed and rendered a broken-image icon. Take the family asset as-is
+   and record provenance here instead.
+   Measured on #ffffff: wordmark #181716 18.6:1, nav ink #3d4144 10.3:1.
+
+   Note this retires canvas' *signature hue* only. --arc42-amber stays a
+   family-wide accent token for highlights and tips; it is simply no longer
+   the colour canvas is recognized by.
+   -------------------------------------------------------------------------- */
+
+:root {
+    --band: #ffffff;
+    --on-band: #3d4144;
+}
+
+.greedy-nav {
+    background: var(--band);
+}
+
+.greedy-nav a,
+.greedy-nav a:hover {
+    color: var(--on-band);
+}
+
+.greedy-nav a:hover {
+    text-decoration: underline;
+}
+
+/* The reveal-on-hover underline and the mobile burger follow the nav ink
+   rather than the theme's light gray $primary-color, which is faint at this
+   size. */
+.greedy-nav .visible-links a::before {
+    background: var(--on-band);
+}
+
+.navicon,
+.navicon::before,
+.navicon::after {
+    background: var(--on-band);
+}
+
+.greedy-nav .hidden-links a:hover {
+    background: rgba(61, 65, 68, 0.08);
+    color: var(--on-band);
+}
+
+/* --------------------------------------------------------------------------
+   Downloads is the nav's call to action (see the `class: nav-cta` entry in
+   _data/navigation.yml). It reads as a quiet pill rather than a coloured
+   button: the band is deliberately plain white now, so a saturated fill would
+   reintroduce exactly the loud edge the amber retirement removed. Colours are
+   the same trio as .btn-subtle further down, so the two agree.
+
+   The negative margins are the whole trick, and they are not cosmetic. The
+   theme lays every nav link out as `display:block; margin: 0 1rem; padding: 0;
+   line-height: 33px`, and the <li>s are top-aligned -- so padding alone made
+   the pill 44px tall against its siblings' 33px, growing downward only and
+   dropping the word "Downloads" 4.4px below every other label's baseline.
+   Compensating each axis by exactly what the padding and border add keeps the
+   anchor's margin box the size a plain link's is: the label holds the baseline
+   and the x-position it would have had unstyled, and the pill is drawn
+   symmetrically around it. Change the padding and the matching calc() has to
+   change too, or the row goes crooked again.
+
+   Scoped to .visible-links on purpose. The greedy nav moves overflowing items
+   into .hidden-links, where a pill inside the dropdown would look like a
+   misplaced button -- there the link stays plain.
+   -------------------------------------------------------------------------- */
+.greedy-nav .visible-links a.nav-cta {
+    /* Vertical padding stays small on purpose: the theme's line-height is 33px
+       for 22px text, so the line box already carries ~9px of leading and the
+       pill gets its breathing room for free. 0.25em on top of that made a 46px
+       slab next to a 34px wordmark. */
+    padding: 0.1em 0.7em;
+    /* -(padding + border) vertically; the theme's own 1rem less the same
+       horizontally, so the neighbouring labels keep their rhythm. */
+    margin: calc(-0.1em - 1px) calc(1rem - 0.7em - 1px);
+    /* #e0e0e0 was invisible: a near-white border around a near-white fill on a
+       white band read as a flat grey rectangle with no discernible edge. */
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+    background-color: #f7f7f7;
+    font-weight: 600;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.greedy-nav .visible-links a.nav-cta:hover {
+    background-color: #eaeaea;
+    border-color: #d4d4d4;
+    text-decoration: none;
+}
+
+/* The theme animates an underline bar in via ::before on hover; under a pill
+   it reads as a stray rule, so the CTA opts out and uses its fill instead. */
+.greedy-nav .visible-links a.nav-cta::before {
+    display: none;
+}
+
+.site-title img {
+    display: block;
+    /* A definite height, NOT max-height. `max-height` only caps a size, it does
+       not establish one, and `width: auto` overrides the img's width attribute
+       -- so inside the flex masthead the wordmark resolved to a 0x0 used size
+       and disappeared entirely (it looked "white on white"; it was simply not
+       there). Measured in Chrome: max-height + width:auto -> 0x0, height +
+       width:auto -> 121x34.
+
+       34px rather than 2.125rem for the same reason the rem was wrong before:
+       this site's root font is 20px, not 16px, so 2.125rem resolved to 42.5px
+       and would have oversized the band even once it rendered. 34px matches
+       the height attribute in masthead.html, so markup and CSS agree and the
+       band does not reflow while the SVG loads. */
+    height: 34px;
+    width: auto;
+}
+
+
 .supported-by-innoq {
-    margin-bottom: 8px;
+    /* No bottom margin: the mark is a flex item in the row below, not a block
+       stacked above the links. */
+    margin-bottom: 0;
     width: 110px;
 }
 
@@ -24,6 +154,11 @@
 
 
 
+/* --------------------------------------------------------------------------
+   arc42.org-shaped footer: sponsor mark, one middot-separated link row,
+   copyright. Same structure as trainings.arc42.org, this site's colors.
+   -------------------------------------------------------------------------- */
+
 .footer-center {
     text-align: center;
     font-size: 80%;
@@ -31,6 +166,62 @@
 
 .copyright-size {
     font-size: 60% !important;
+}
+
+/* The sponsor mark and the link row sit on ONE line -- mark left, links
+   running to its right -- exactly as trainings.arc42.org renders it. Without
+   this rule the <p> and the <ul> are two blocks, which stacks the mark above
+   a centered link row. Wraps to two lines on narrow viewports. */
+.page__footer-follow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-innoq {
+    margin: 0;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    column-gap: 0.6rem;
+    row-gap: 0.3rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* The .page__footer-follow prefix is load-bearing: minimal-mistakes styles
+   `.page__footer-follow li` (uppercase, narrow sans) at equal specificity
+   earlier in the cascade, and this row is sentence case. */
+.page__footer-follow .footer-links li {
+    font-size: 0.92em;
+    font-family: inherit;
+    text-transform: none;
+    padding-bottom: 0;
+}
+
+.page__footer-follow .footer-links li + li::before {
+    content: "\00B7";
+    margin-right: 0.6rem;
+    opacity: 0.6;
+}
+
+.page__footer-follow .footer-links a {
+    padding-right: 0;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.page__footer-follow .footer-links a:hover,
+.page__footer-follow .footer-links a:focus {
+    text-decoration: underline;
 }
 
 
@@ -86,4 +277,34 @@
     background-color: #eaeaea;
     border-color: #d4d4d4;
     color: #3d4144;
+}
+
+
+/* --------------------------------------------------------------------------
+   Contributors page: the per-person contact rows.
+   -------------------------------------------------------------------------- */
+
+/* The theme sets these links to font-weight 700, which in the splash layout's
+   22px type made every row shout louder than the contributor's name above it.
+   500 still reads unmistakably as a link -- the underline and link colour do
+   that work -- without competing with the <h3>. */
+.page__footer-follow .social-icons a {
+    font-weight: 500;
+}
+
+/* The row's opening label is not a link, so it goes lighter still and dimmed:
+   it should read as a caption introducing the links, not as a disabled one. */
+.page__footer-follow .social-icons .contact-label {
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+/* Sentence case, matching the site footer. minimal-mistakes uppercases every
+   `.page__footer-follow li`, which shouted at the splash layout's 22px and
+   also mangled the one label that carries real casing ("Profile on INNOQ.com"
+   became PROFILE ON INNOQ.COM). The .page__footer-follow prefix is
+   load-bearing: the theme's rule sits at equal specificity earlier in the
+   cascade, so a bare `.social-icons li` would lose. */
+.page__footer-follow .social-icons li {
+    text-transform: none;
 }

@@ -8,30 +8,27 @@ header:
 excerpt: "**Three architects striving for minimalism**"
 ---
 
+{%- comment -%}
+  The three social rows carry no Font Awesome glyphs: the site dropped the icon
+  font when the footer was simplified, so a <i class="fab fa-..."> here renders
+  as nothing (or as a tofu box) rather than a logo. Plain labels only.
+
+  Each row opens with a non-link "Contact him:" li, so the reader sees what the
+  links are for before reading them. Keeping it inside the <ul> rather than
+  beside it means it wraps with the links on narrow viewports instead of
+  stranding itself on its own line.
+{%- endcomment -%}
+
 ### Patrick Roos
 Founder of [workingsoftware.dev](https://workingsoftware.dev), Software Architect and consultant, blog author. Inventor of the original [_Software Architecture Canvas_](https://www.workingsoftware.dev/software-architecture-canvas/), currently known as the ["Architecture Inception Canvas"](https://canvas.arc42.org/architecture-inception-canvas).
 
 <div class="page__footer-follow">
   <ul class="social-icons">
-
-      <li>
-        <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i>
-        <a href="https://www.linkedin.com/in/patrick-roos-40124a118/">LinkedIn</a>
-      </li>
-
-      <li>
-        <i class="fab fa-fw fa-twitter" aria-hidden="true"></i>
-        <a href="https://twitter.com/_patrickroos">Twitter</a>
-      </li>
-
-      <li>
-        <i class="fab fa-fw fa-github" aria-hidden="true"></i>
-        <a href="https://github.com/bitsmuggler">GitHub</a>
-      </li>
-
-      <li>
-        <a href="https://workingsoftware.dev/">Blog</a>
-      </li>
+    <li class="contact-label">Contact him:</li>
+    <li><a href="https://www.linkedin.com/in/patrick-roos-40124a118/">LinkedIn</a></li>
+    <li><a href="https://twitter.com/_patrickroos">Twitter</a></li>
+    <li><a href="https://github.com/bitsmuggler">GitHub</a></li>
+    <li><a href="https://workingsoftware.dev/">Blog</a></li>
   </ul>
 </div>
 
@@ -40,26 +37,13 @@ INNOQ Fellow, arc42 co-founder and maintainer, aim42 founder, author of numerous
 Pragmatic. Experienced trainer for software architecture, co-founder of the iSAQB Foundation Curriculum.
 
 <div class="page__footer-follow">
-<ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-    <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
-    <li><a href="https://linkedin.com/in/gernotstarke">
-      <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
-
-    
-    <li><a href="https://gernotstarke.de/"><i class="fas fa-globe" aria-hidden="true"></i> Website</a></li>
-    <li><a href="https://github.com/gernotstarke"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
-
-    <li><a href="https://www.youtube.com/arc42-video/"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> YouTube</a></li>
-
-    <li>
-        <i class="fab fa-fw fa-mastodon" aria-hidden="true"></i>
-        <a href="https://innoq.social/@gernotstarke">Mastodon</a>
-      </li>
-
-    <li><a href="https://dev.to/gernotstarke/"><i class="fab fa-dev" aria-hidden="true"></i> Dev</a></li>
-</ul>
+  <ul class="social-icons">
+    <li class="contact-label">Contact him:</li>
+    <li><a href="https://linkedin.com/in/gernotstarke">LinkedIn</a></li>
+    <li><a href="https://gernotstarke.de/">Website</a></li>
+    <li><a href="https://github.com/gernotstarke">GitHub</a></li>
+    <li><a href="https://www.youtube.com/arc42-video/">YouTube</a></li>
+  </ul>
 </div>
 
 ### Benjamin Wolf
@@ -67,26 +51,11 @@ INNOQ senior consultant, coffee consultant, arc42 user and contributor, iSAQB Co
 
 <div class="page__footer-follow">
   <ul class="social-icons">
-
-      <li>
-        <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i>
-        <a href="https://www.linkedin.com/in/benjaminwolf1985/">LinkedIn</a>
-      </li>
-
-      <li>
-        <i class="fas fa-globe" aria-hidden="true"></i> 
-        <a href="https://innoq.com/en/staff/benjamin-wolf">Profile on INNOQ.com</a>
-      </li>
-      
-      <li>
-        <i class="fab fa-fw fa-github" aria-hidden="true"></i>
-        <a href="https://github.com/programming-wolf">GitHub</a>
-      </li>
-
-      <li>
-        <i class="fab fa-fw fa-mastodon" aria-hidden="true"></i>
-        <a href="https://innoq.social/@ben">Mastodon</a>
-      </li>
+    <li class="contact-label">Contact him:</li>
+    <li><a href="https://www.linkedin.com/in/benjaminwolf1985/">LinkedIn</a></li>
+    <li><a href="https://innoq.com/en/staff/benjamin-wolf">Profile on INNOQ.com</a></li>
+    <li><a href="https://github.com/programming-wolf">GitHub</a></li>
+    <li><a href="https://innoq.social/@ben">Mastodon</a></li>
   </ul>
 </div>
 

@@ -1,31 +1,32 @@
+{%- comment -%}
+  Footer shaped like trainings.arc42.org / arc42.org: sponsor mark, one
+  middot-separated link row, copyright. No Font Awesome glyphs here -- the row
+  is plain text, so the band costs no icon-font rendering.
+{%- endcomment -%}
 <div class="page__footer-follow footer-center">
-  <ul class="social-icons">
+  <p class="footer-innoq">
+    <a href="https://www.innoq.com" target="_blank" rel="noopener noreferrer nofollow"><img class="supported-by-innoq" src="/images/supported-by-innoq.svg" alt="Supported by INNOQ" width="110" height="24"></a>
+  </p>
 
-    <a href="https://www.innoq.com" target="_blank" rel="noopener noreferrer nofollow"><img class="supported-by-innoq" src="/images/supported-by-innoq--petrol-apricot.svg"></a><br>
-
-    <li><a href="https://www.linkedin.com/groups/14266127/">
-      <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
-
-    
-    <li><a href="https://github.com/arc42/canvas.arc42.org-site"><i class="fab fa-fw fa-github" aria-hidden="true"></i>GitHub</a></li>
-
-    <li><a href="/downloads"><i class="fa fa-fw fa-download" aria-hidden="true"></i>Download</a></li>
-
-    <br>
-    
-
-    <li><a href="{{ '/imprint' | absolute_url }}"><i class="fas fa-fw fa-gavel" style="color:Tomato" aria-hidden="true"></i>Imprint & Privacy</a></li>
-
-    <li><a href="https://creativecommons.org/licenses/by-sa/4.0/"><i class="fas fa-balance-scale-right" style="color:Tomato" aria-hidden="true"></i>License</a></li>
-
-    <li><a href="https://status.arc42.org">
-      <i class="fas fa-chart-bar fa-fw" style="color:#50C878;" ></i>Status</a><i>&nbsp;&nbsp;</i></li>
-
+  <ul class="footer-links">
+    <li><a href="https://arc42.org">arc42.org</a></li>
+    <li><a href="https://arc42.org/about/#contact">Contact</a></li>
+    <li><a href="https://arc42.org/license/">License</a></li>
+    <li><a href="{{ '/imprint/' | relative_url }}">Imprint &amp; Privacy</a></li>
+    <li><a href="https://status.arc42.org/">Status</a></li>
+    <li><a href="https://github.com/arc42/canvas.arc42.org-site">GitHub</a></li>
+    {%- comment -%}
+      Site-specific slot (trainings puts "Maintainers" here). Contributors used
+      to sit in the main nav and traded places with Downloads on 2026-08-30:
+      Downloads is what visitors come to do, credits are what they look up
+      afterwards. This row is now /contributors' only site-wide entry point, so
+      dropping it would orphan the page.
+    {%- endcomment -%}
+    <li><a href="{{ '/contributors' | relative_url }}">Contributors</a></li>
   </ul>
 </div>
 
-
 <div class="page__footer-copyright footer-center copyright-size">
   &copy; {{ site.time | date: '%Y' }} Gernot Starke, Patrick Roos and arc42 contributors. <br class="mobile">
-  Supported by <a target="_blank" rel="noopener noreferrer" href="https://kroener-starke.ch/">Kröner & Starke</a>.
+  Supported by <a target="_blank" rel="noopener noreferrer" href="https://kroener-starke.ch/">Kröner &amp; Starke</a>.
 </div>

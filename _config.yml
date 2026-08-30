@@ -20,6 +20,12 @@ breadcrumbs     : false # true, false (default)
 words_per_minute : 200
 permalink       : none
 
+# No Atom feed: this is not a blog and no feed-generating plugin is enabled,
+# so the theme's default <link rel="alternate" href="/feed.xml"> would point
+# at a file that is never built (html-proofer flags it on every page).
+atom_feed:
+  hide          : true
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :

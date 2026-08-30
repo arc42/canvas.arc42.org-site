@@ -2,8 +2,12 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
+        {%- comment -%}
+          viewBox 450.47 x 126.4 -> 121 x 34 keeps the wordmark's aspect ratio;
+          width/height are set so the band does not reflow while the SVG loads.
+        {%- endcomment -%}
         <a class="site-title" href="{{ '/' | absolute_url }}">
-          <img src="/images/arc42-logo-medium.jpg" width="80px"/></a>
+          <img src="{{ '/images/arc42-logo-black.svg' | relative_url }}" width="121" height="34" alt="arc42 canvas — home"/></a>
          <ul class="visible-links">
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
@@ -12,7 +16,7 @@
               {% assign domain = site.url | append: site.baseurl %}
             {% endif %}
             <li class="masthead__menu-item">
-              <a href="{{ domain }}{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              <a href="{{ domain }}{{ link.url }}"{% if link.class %} class="{{ link.class }}"{% endif %}{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
           {% endfor %}
         </ul>

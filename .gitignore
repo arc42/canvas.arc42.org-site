@@ -5,5 +5,3 @@ _site/.DS_Store
 _site
 .DS_Store
 *.dtmp
-Gemfile.lock
-Gemfile.lock

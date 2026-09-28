@@ -22,6 +22,7 @@ excerpt: "**Download the AIC and ACC**"
   <li><a href="/downloads/architecture-communication-canvas.fig">Figma® Template</a></li>
   <li><a href="/downloads/ArchitectureCommunicationCanvas-v2.pptx">PowerPoint®</a></li>
   <li><a href="/downloads/architecture-communication-canvas-markdown.zip">Markdown & Mermaid.js</a></li>
+  <li><a href="/downloads/architecture-communication-canvas.html" download>HTML template for AsciiDoc</a>, a clickable overview linking to one page per block (usage instructions inside the file)</li>
   <li><a href="https://github.com/tpo42/canvas-latex-template/releases">LaTeX Template</a></li>
 </ul>
 

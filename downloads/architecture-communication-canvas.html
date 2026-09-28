@@ -1,17 +1,85 @@
+<!--
+  Architecture Communication Canvas (ACC) - HTML template for AsciiDoc
+  https://canvas.arc42.org
+
+  An HTML fragment (no <html>/<body>) you can embed into an AsciiDoc document
+  as an overview page. Each block links to a separate page describing that
+  block in detail.
+
+  Usage (AsciiDoc):
+
+    ++++
+    include::architecture-communication-canvas.html[]
+    ++++
+
+  1. Fill in the header fields (System, Created by, Created for, Date / Iteration).
+  2. Create one page per block - or adjust the href of each block to point to
+     your own pages. Default targets:
+
+       001_value_proposition.html     006_quality_requirements.html
+       002_core_functions.html        007_business_context.html
+       003_core_decisions.html        008_components_modules.html
+       004_technologies.html          009_risks_missing_info.html
+       005_key_stakeholder.html
+
+     (in AsciiDoc: 001_value_proposition.adoc renders to 001_value_proposition.html)
+
+  All CSS is scoped to .acc-canvas to avoid clashes with your AsciiDoc theme.
+
+  Software Architecture Canvas, (c) 2023 by Gernot Starke, Patrick Roos and
+  arc42 Contributors, licensed under CC BY-SA 4.0
+  (https://creativecommons.org/licenses/by-sa/4.0/).
+  HTML template contributed by Joel Dumont.
+-->
 <style>
-    .canvas-arch {
-        --green:#98e6b3;     /* Goals */
-        --blue:#a6d8f5;      /* Solution */
-        --red:#f7b5b5;       /* Assessment/Risks */
-        --text: #020202;
-        --shadow:0 6px 16px rgba(0,0,0,.12);
-        --radius:14px;
+    .acc-canvas {
+        --acc-green:#98e6b3;     /* Requirements */
+        --acc-blue:#a6d8f5;      /* Solution */
+        --acc-red:#f7b5b5;       /* Risks */
+        --acc-text:#020202;
+        --acc-shadow:0 6px 16px rgba(0,0,0,.12);
+        --acc-radius:14px;
         max-width:1200px;
         margin:0 auto;
-        font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
-        color:var(--text);
+        font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+        color:var(--acc-text);
     }
-    .grid-arch{
+    .acc-canvas *{ box-sizing:border-box; }
+
+    /* header */
+    .acc-canvas .acc-header{
+        display:flex;
+        flex-wrap:wrap;
+        align-items:center;
+        justify-content:space-between;
+        gap:12px 18px;
+        margin-bottom:18px;
+    }
+    .acc-canvas .acc-title{
+        margin:0;
+        font-size:24px;
+        line-height:1.2;
+        color:#2c5777;
+    }
+    .acc-canvas .acc-meta{
+        display:grid;
+        grid-template-columns:repeat(4, minmax(120px, 1fr));
+        gap:8px;
+        margin:0;
+        flex:1 1 520px;
+        max-width:720px;
+    }
+    .acc-canvas .acc-meta div{
+        border:1px solid #c8d0d6;
+        border-radius:6px;
+        padding:4px 8px;
+        min-height:44px;
+    }
+    .acc-canvas .acc-meta dt{ font-size:11px; color:#555; margin:0; }
+    .acc-canvas .acc-meta dd{ font-size:13px; margin:2px 0 0 0; }
+
+    /* grid */
+    .acc-canvas .acc-grid{
         display:grid;
         grid-template-columns:1fr 1.2fr 1.2fr 1fr;
         grid-template-areas:
@@ -21,40 +89,44 @@
       "risks   risks    risks     risks";
         gap:18px;
     }
-    .card{
-        border-radius:var(--radius);
-        box-shadow:var(--shadow);
+    .acc-canvas .acc-card{
+        display:block;
+        border-radius:var(--acc-radius);
+        box-shadow:var(--acc-shadow);
         padding:18px 20px;
         background:#fff;
-        transition: box-shadow 0.2s, transform 0.2s;
-        cursor: pointer;
+        color:var(--acc-text);
+        text-decoration:none;
+        transition:box-shadow .2s, transform .2s;
     }
-    .card:hover{
-        box-shadow:0 12px 32px rgba(0,0,0,.28); 
-        transform: translateY(-6px) scale(1.03);
+    .acc-canvas .acc-card:hover,
+    .acc-canvas .acc-card:focus-visible{
+        box-shadow:0 12px 32px rgba(0,0,0,.28);
+        transform:translateY(-6px) scale(1.03);
         z-index:2;
     }
-    .g{ background:var(--green); }
-    .b{ background:var(--blue);  }
-    .r{ background:var(--red);   }
+    .acc-canvas .acc-card:focus-visible{ outline:3px solid #2c5777; outline-offset:2px; }
+    .acc-canvas .acc-req{ background:var(--acc-green); }
+    .acc-canvas .acc-sol{ background:var(--acc-blue);  }
+    .acc-canvas .acc-risk{ background:var(--acc-red);  }
 
-    .card h3{ margin:0 0 6px 0; font-size:16px; line-height:1.2; color: #000; }
-    .card p{ margin:0; opacity:.95; font-size:13px; }
+    .acc-canvas .acc-card h3{ margin:0 0 6px 0; font-size:16px; line-height:1.2; color:#000; }
+    .acc-canvas .acc-card p{ margin:0; opacity:.95; font-size:13px; line-height:1.4; }
 
     /* placement */
-    .vp{grid-area:vp;}
-    .core{grid-area:core;}
-    .decisions{grid-area:decisions;}
-    .tech{grid-area:tech;}
-    .stake{grid-area:stake;}
-    .quality{grid-area:quality;}
-    .context{grid-area:context;}
-    .comps{grid-area:comps;}
-    .risks{grid-area:risks;}
+    .acc-canvas .acc-vp{grid-area:vp;}
+    .acc-canvas .acc-core{grid-area:core;}
+    .acc-canvas .acc-decisions{grid-area:decisions;}
+    .acc-canvas .acc-tech{grid-area:tech;}
+    .acc-canvas .acc-stake{grid-area:stake;}
+    .acc-canvas .acc-quality{grid-area:quality;}
+    .acc-canvas .acc-context{grid-area:context;}
+    .acc-canvas .acc-comps{grid-area:comps;}
+    .acc-canvas .acc-risks{grid-area:risks;}
 
     /* responsive */
     @media (max-width: 980px){
-        .grid-arch{
+        .acc-canvas .acc-grid{
             grid-template-columns:1fr 1fr;
             grid-template-areas:
         "vp vp"
@@ -65,9 +137,10 @@
         "comps comps"
         "risks risks";
         }
+        .acc-canvas .acc-meta{ grid-template-columns:repeat(2, 1fr); }
     }
     @media (max-width: 600px){
-        .grid-arch{
+        .acc-canvas .acc-grid{
             grid-template-columns:1fr;
             grid-template-areas:
         "vp"
@@ -82,85 +155,99 @@
         }
     }
 
-    .legend-item {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        font-size: 13px;
+    /* legend + footer */
+    .acc-canvas .acc-legend{ list-style:none; margin:18px 0 0 0; padding:0; }
+    .acc-canvas .acc-legend li{
+        display:flex;
+        align-items:center;
+        gap:8px;
+        font-size:13px;
+        margin:0 0 4px 0;
     }
-
-    .legend-color {
-        width: 16px;
-        height: 16px;
-        border-radius: 4px;
-        display: inline-block;
+    .acc-canvas .acc-legend-color{
+        width:16px;
+        height:16px;
+        border-radius:4px;
+        display:inline-block;
+        flex:none;
     }
-
-    .req { background-color: #98e6b3; }   
-    .sol { background-color: #a6d8f5; }  
-    .ris { background-color: #f7b5b5; }   
+    .acc-canvas .acc-footer{
+        margin-top:14px;
+        font-size:11px;
+        color:#555;
+    }
+    .acc-canvas .acc-footer a{ color:#2c5777; }
 </style>
 
-<div class="canvas-arch">
-    <div class="grid-arch">
+<div class="acc-canvas">
+    <header class="acc-header">
+        <h2 class="acc-title">Architecture Communication Canvas</h2>
+        <dl class="acc-meta">
+            <div><dt>System:</dt><dd>&nbsp;</dd></div>
+            <div><dt>Created by:</dt><dd>&nbsp;</dd></div>
+            <div><dt>Created for:</dt><dd>&nbsp;</dd></div>
+            <div><dt>Date / Iteration:</dt><dd>&nbsp;</dd></div>
+        </dl>
+    </header>
 
-        <section class="card g vp" onclick="location.href='001_value_proposition.html'">
+    <div class="acc-grid">
+
+        <a class="acc-card acc-req acc-vp" href="001_value_proposition.html">
             <h3>Value Proposition</h3>
-            <p>What is the core business case or economic driver?</p>
-        </section>
+            <p>Major objectives.<br>What value does the system deliver?<br>What are the major business goals?</p>
+        </a>
 
-        <section class="card g core" onclick="location.href='002_core_functions.html'">
+        <a class="acc-card acc-req acc-core" href="002_core_functions.html">
             <h3>Core Functions</h3>
-            <p>Most important functions &amp; supported processes.</p>
-        </section>
+            <p>What are the most important functions of the system?<br>What activities or processes does it offer?</p>
+        </a>
 
-        <section class="card b decisions" onclick="location.href='003_core_decisions.html'">
+        <a class="acc-card acc-sol acc-decisions" href="003_core_decisions.html">
             <h3>Core Decisions - Good or Bad</h3>
-            <p>Which decisions led to the current state?</p>
-        </section>
+            <p>Which decisions lead to the current state of the system?</p>
+        </a>
 
-        <section class="card b tech" onclick="location.href='004_technologies.html'">
+        <a class="acc-card acc-sol acc-tech" href="004_technologies.html">
             <h3>Technologies</h3>
             <p>Important technologies used for development and operation.</p>
-        </section>
+        </a>
 
-        <section class="card g stake" onclick="location.href='005_key_stakeholder.html'">
+        <a class="acc-card acc-req acc-stake" href="005_key_stakeholder.html">
             <h3>Key Stakeholder</h3>
-            <p>For whom are we creating value? Customers, payers, contributors.</p>
-        </section>
+            <p>For whom are we creating value?<br>Who is paying for development?<br>Who is paying for operations?<br>Who are our most important customers?<br>Who are our most important contributors?</p>
+        </a>
 
-        <section class="card g quality" onclick="location.href='006_quality_requirements.html'">
+        <a class="acc-card acc-req acc-quality" href="006_quality_requirements.html">
             <h3>Quality Requirements</h3>
-            <p>Speed, scalability, reliability, usability, security, safety, capacity, flexibility.</p>
-        </section>
+            <p>Speed, scalability, reliability, usability, security, safety, capacity or similar.</p>
+        </a>
 
-        <section class="card g context" onclick="location.href='007_business_context.html'">
+        <a class="acc-card acc-req acc-context" href="007_business_context.html">
             <h3>Business Context</h3>
-            <p>Important external interfaces or neighbouring systems, including key actors or roles.</p>
-        </section>
+            <p>What are the most important external interfaces or neighboring systems?</p>
+        </a>
 
-        <section class="card b comps" onclick="location.href='008_components_modules.html'">
-            <h3>Components/Modules</h3>
-            <p>Major building blocks of the system: subsystems, modules, services.</p>
-        </section>
+        <a class="acc-card acc-sol acc-comps" href="008_components_modules.html">
+            <h3>Components / Modules</h3>
+            <p>Major building blocks of the system.</p>
+        </a>
 
-        <section class="card r risks" onclick="location.href='009_risks_missing_info.html'">
-            <h3>Risks and Missing Information</h3>
-            <p>Potential problems and risks. What information is missing or blocking faster value delivery?</p>
-        </section>
+        <a class="acc-card acc-risk acc-risks" href="009_risks_missing_info.html">
+            <h3>Core Risks and Missing Information</h3>
+            <p>Potential problems and risks?<br>What information is missing or has gotten lost?<br>What is hindering the team from delivering better value faster?</p>
+        </a>
 
     </div>
-    <br>
-        <div class="legend-item">
-            <span class="legend-color req"></span>
-            Requirements: What should the system do?
-        </div>
-        <div class="legend-item">
-            <span class="legend-color sol"></span>
-            Solution: How is it done? How does it work?
-        </div>
-        <div class="legend-item">
-            <span class="legend-color ris"></span>
-            What are known problems and risks?
-        </div>
+
+    <ul class="acc-legend">
+        <li><span class="acc-legend-color acc-req"></span>Requirements: What should the system do?</li>
+        <li><span class="acc-legend-color acc-sol"></span>Solution: How is it done? How does it work?</li>
+        <li><span class="acc-legend-color acc-risk"></span>Risks: What are known problems and risks?</li>
+    </ul>
+
+    <p class="acc-footer">
+        Software Architecture Canvas, &copy; 2023 by Gernot Starke, Patrick Roos and arc42 Contributors,
+        licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+        <a href="https://canvas.arc42.org">https://canvas.arc42.org</a>
+    </p>
 </div>

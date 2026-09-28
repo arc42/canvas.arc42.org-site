@@ -22,7 +22,21 @@ excerpt: "**Download the AIC and ACC**"
   <li><a href="/downloads/architecture-communication-canvas.fig">Figma® Template</a></li>
   <li><a href="/downloads/ArchitectureCommunicationCanvas-v2.pptx">PowerPoint®</a></li>
   <li><a href="/downloads/architecture-communication-canvas-markdown.zip">Markdown & Mermaid.js</a></li>
-  <li><a href="/downloads/architecture-communication-canvas.html" download>HTML template for AsciiDoc</a>, a clickable overview linking to one page per block (usage instructions inside the file)</li>
+  <li><a href="/downloads/architecture-communication-canvas.html" download>HTML template for AsciiDoc</a>, a clickable overview linking to one page per block (<a href="/downloads/architecture-communication-canvas.html">preview</a>)
+    <details>
+      <summary>How to use it</summary>
+      <ol>
+        <li>Save the file next to your AsciiDoc sources.</li>
+        <li>Embed it as a passthrough block in your overview page:
+<pre><code>++++
+include::architecture-communication-canvas.html[]
+++++</code></pre></li>
+        <li>Fill in the header fields (System, Created by, Created for, Date / Iteration) in the HTML.</li>
+        <li>Create one page per block: <code>001_value_proposition.adoc</code> &hellip; <code>009_risks_missing_info.adoc</code> render to the <code>.html</code> files the blocks link to. Or change each block's <code>href</code> to point to your own pages.</li>
+      </ol>
+      <p>The CSS is scoped to <code>.acc-canvas</code>, so it won't clash with your AsciiDoc theme. Further details are in the comment at the top of the file.</p>
+    </details>
+  </li>
   <li><a href="https://github.com/tpo42/canvas-latex-template/releases">LaTeX Template</a></li>
 </ul>
 

@@ -33,7 +33,12 @@ site: build ## Generate the static site into _site/
 	docker compose run --rm jekyll bundle exec jekyll build
 
 check-links: site ## Validate internal links, images, and HTML in the built _site (html-proofer)
-	docker compose run --rm jekyll bundle exec htmlproofer ./_site --disable-external --allow-hash-href
+	@# The downloadable ACC HTML template links its blocks to placeholder pages
+	@# (001_value_proposition.html ...) that users create in their own AsciiDoc
+	@# docs; on this site a script rewrites them at runtime, which html-proofer
+	@# can't see. Only skip downloads/ -- the ACC explanation page stays checked.
+	docker compose run --rm jekyll bundle exec htmlproofer ./_site --disable-external --allow-hash-href \
+		--ignore-files '/downloads\/architecture-communication-canvas\.html/'
 
 clean: ## Remove generated _site AND the Docker cache volumes (a true reset)
 	@# Order matters. .jekyll-cache/.sass-cache are the host-side mount points of

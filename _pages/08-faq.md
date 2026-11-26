@@ -63,7 +63,7 @@ Both canvases are fully compatible with the [arc42 template](https://arc42.org/o
 ## What tool(s) shall I use?
 
 1. Try pen and paper first, electronic or digital tools later.
-2. Try the most collaborative tool you have in your toolbox. We like tools like [Miro](https://miro.com), [ConceptBoard](https://conceptboard.com/), [Mural](https://www.mural.co/), [FigJam](https://www.figma.com/de/figjam/team-collaboration/) or [Jamboard](https://jamboard.google.com)
+2. Try the most collaborative tool you have in your toolbox. We like tools like [Miro](https://miro.com), [ConceptBoard](https://conceptboard.com/), [Mural](https://www.mural.co/), [FigJam](https://www.figma.com/figjam/) or [Novastart](https://novastart.com/) _(new)_
 
 Focus on content, not on tooling!
 
